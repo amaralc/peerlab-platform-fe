@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            Start Bootstrap
+            peerLab
           </Link>
           <button
             className="navbar-toggler"

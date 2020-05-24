@@ -9,12 +9,14 @@ export default function Header(props) {
             <div className="col-lg-12">
               <h1 className="display-4 text-white mt-5 mb-2">
                 {props.headerTitle}
+                {/** "Business Name or Tagline" */}
               </h1>
               <p className="lead mb-5 text-white-50">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+                {props.headerDescription}
+                {/** Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
                 possimus ab labore provident mollitia. Id assumenda voluptate
                 earum corporis facere quibusdam quisquam iste ipsa cumque unde
-                nisi, totam quas ipsam.
+                nisi, totam quas ipsam. */}
               </p>
             </div>
           </div>
