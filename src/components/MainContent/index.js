@@ -2,6 +2,9 @@ import React from 'react';
 
 import IconCard from '../IconCard';
 import {
+  DFlex,
+  SideNav,
+  ListGroup,
   SideBarItem,
   SideBarHeading,
   SideBarGap,
@@ -16,28 +19,28 @@ import RoboticArm from './img/roboticArm.png';
 export default function MainContent() {
   return (
     <>
-      <div className="d-flex" id="wrapper">
-        <div className="bg-light border-right" id="sidebar-wrapper">
+      <DFlex id="wrapper">
+        <SideNav id="sidebar-wrapper">
           <SideBarHeading>Escolha uma categoria</SideBarHeading>
-          <div className="list-group list-group-flush">
+          <ListGroup className=" list-group-flush">
             <SideBarItem to="/">Categoria 01</SideBarItem>
             <SideBarItem to="/">Categoria 02</SideBarItem>
             <SideBarItem to="/">Categoria 03</SideBarItem>
             <SideBarItem to="/">Categoria 04</SideBarItem>
             <SideBarItem to="/">Categoria 05</SideBarItem>
             <SideBarItem to="/">Categoria 06</SideBarItem>
-          </div>
+          </ListGroup>
           <SideBarGap />
           <SideBarHeading>Escolha um laboratório</SideBarHeading>
-          <div className="list-group list-group-flush">
+          <ListGroup className=" list-group-flush">
             <SideBarItem to="/">Lab 01</SideBarItem>
             <SideBarItem to="/">Lab 02</SideBarItem>
             <SideBarItem to="/">Lab 03</SideBarItem>
             <SideBarItem to="/">Lab 04</SideBarItem>
             <SideBarItem to="/">Lab 05</SideBarItem>
             <SideBarItem to="/">Lab 06</SideBarItem>
-          </div>
-        </div>
+          </ListGroup>
+        </SideNav>
 
         <div id="page-content-wrapper">
           <div className="container-fluid">
@@ -111,7 +114,7 @@ export default function MainContent() {
             </Row>
           </div>
         </div>
-      </div>
+      </DFlex>
     </>
   );
 }
