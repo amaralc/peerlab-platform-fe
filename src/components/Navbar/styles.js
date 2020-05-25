@@ -13,7 +13,7 @@ export const NavbarContainer = styled.div`
 
 export const MainContainer = styled.div`
   width: 100%;
-  padding: 0rem 1rem;
+  padding: 0rem 0.25rem;
   margin-right: auto;
   margin-left: auto;
 
