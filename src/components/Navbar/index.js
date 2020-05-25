@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import NavItem from './NavItem';
+import { NavbarContainer } from './styles';
 
 export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div className="container">
+        <NavbarContainer>
           <Link className="navbar-brand" to="/">
             peerLab
           </Link>
@@ -30,7 +31,7 @@ export default function Navbar() {
               <NavItem item="Contact" route="/" />
             </ul>
           </div>
-        </div>
+        </NavbarContainer>
       </nav>
     </>
   );
