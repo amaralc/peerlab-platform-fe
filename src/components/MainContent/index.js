@@ -2,7 +2,7 @@ import React from 'react';
 
 import IconCard from '../IconCard';
 import {
-  StyledLink,
+  SideBarItem,
   SideBarHeading,
   SideBarGap,
   CentralHeading,
@@ -20,22 +20,22 @@ export default function MainContent() {
         <div className="bg-light border-right" id="sidebar-wrapper">
           <SideBarHeading>Escolha uma categoria</SideBarHeading>
           <div className="list-group list-group-flush">
-            <StyledLink to="/">Categoria 01</StyledLink>
-            <StyledLink to="/">Categoria 02</StyledLink>
-            <StyledLink to="/">Categoria 03</StyledLink>
-            <StyledLink to="/">Categoria 04</StyledLink>
-            <StyledLink to="/">Categoria 05</StyledLink>
-            <StyledLink to="/">Categoria 06</StyledLink>
+            <SideBarItem to="/">Categoria 01</SideBarItem>
+            <SideBarItem to="/">Categoria 02</SideBarItem>
+            <SideBarItem to="/">Categoria 03</SideBarItem>
+            <SideBarItem to="/">Categoria 04</SideBarItem>
+            <SideBarItem to="/">Categoria 05</SideBarItem>
+            <SideBarItem to="/">Categoria 06</SideBarItem>
           </div>
           <SideBarGap />
           <SideBarHeading>Escolha um laboratório</SideBarHeading>
           <div className="list-group list-group-flush">
-            <StyledLink to="/">Lab 01</StyledLink>
-            <StyledLink to="/">Lab 02</StyledLink>
-            <StyledLink to="/">Lab 03</StyledLink>
-            <StyledLink to="/">Lab 04</StyledLink>
-            <StyledLink to="/">Lab 05</StyledLink>
-            <StyledLink to="/">Lab 06</StyledLink>
+            <SideBarItem to="/">Lab 01</SideBarItem>
+            <SideBarItem to="/">Lab 02</SideBarItem>
+            <SideBarItem to="/">Lab 03</SideBarItem>
+            <SideBarItem to="/">Lab 04</SideBarItem>
+            <SideBarItem to="/">Lab 05</SideBarItem>
+            <SideBarItem to="/">Lab 06</SideBarItem>
           </div>
         </div>
 

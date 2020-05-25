@@ -13,7 +13,7 @@ export const MainContainer = styled.div`
   }
 `;
 
-export const StyledLink = styled(Link)`
+export const SideBarItem = styled(Link)`
   position: relative;
   display: block;
   padding: 0.25rem 1.25rem;
@@ -45,7 +45,7 @@ export const SideBarHeading = styled.div`
   color: #495057;
   font-size: 1rem;
   font-weight: 500;
-  border-bottom: 1px solid #ffd900;
+  border-bottom: 2px solid #ffd900;
 `;
 
 export const SideBarGap = styled.div`
@@ -61,6 +61,7 @@ export const CentralHeading = styled.div`
   color: #495057;
   font-size: 1rem;
   font-weight: 500;
+  border-bottom: 2px solid #ffd900;
 `;
 
 export const Row = styled.div`
@@ -69,9 +70,11 @@ export const Row = styled.div`
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding-bottom: 1rem;
+  border-bottom: 2px solid #ffd90033;
 
   &:last-child {
     margin-bottom: 3rem;
+    border-bottom: none;
   }
 `;
 
@@ -82,6 +85,6 @@ export const Title = styled.h1`
   text-align: left;
   font-size: 20px;
   color: #495057;
-  padding: 0.25rem 0;
-  border-top: 1px solid #ffd900;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
 `;
