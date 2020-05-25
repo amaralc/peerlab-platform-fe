@@ -5,7 +5,7 @@ import { Card, CardImg, CardBody, CardText } from './styles';
 function IconCard(props) {
   return (
     <>
-      <Card>
+      <Card to={props.cardRoute}>
         <CardImg src={props.cardImgSrc} alt={props.cardImgAlt} />
         <CardBody>
           <CardText>{props.cardText}</CardText>

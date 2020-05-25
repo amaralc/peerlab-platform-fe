@@ -13,7 +13,29 @@ export const MainContainer = styled.div`
   }
 `;
 
-export const StyledLink = styled(Link)`
+export const DFlex = styled.div`
+  display: -ms-flexbox !important;
+  display: flex !important;
+`;
+
+export const SideNav = styled.div`
+  background-color: #f8f9fa !important;
+  border-right: 1px solid #dee2e6 !important;
+  position: fixed;
+  z-index: 1;
+`;
+
+export const ListGroup = styled.div`
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  width: 15rem;
+`;
+
+export const SideBarItem = styled(Link)`
   position: relative;
   display: block;
   padding: 0.25rem 1.25rem;
@@ -41,15 +63,23 @@ export const StyledLink = styled(Link)`
 `;
 
 export const SideBarHeading = styled.div`
-  padding: 0.375rem 1.25rem;
+  padding: 0.5rem 1.25rem;
   color: #495057;
   font-size: 1rem;
   font-weight: 500;
   border-bottom: 2px solid #ffd900;
 `;
 
+export const SideBarGap = styled.div`
+  padding: 0.5rem 1.25rem;
+  height: 2rem;
+  color: #495057;
+  font-size: 1rem;
+  font-weight: 500;
+`;
+
 export const CentralHeading = styled.div`
-  padding: 0.375rem 0.25rem;
+  padding: 0.5rem 0.25rem;
   color: #495057;
   font-size: 1rem;
   font-weight: 500;
@@ -61,8 +91,13 @@ export const Row = styled.div`
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 1rem 0.25rem;
-  margin-top: -0.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ffd90033;
+
+  &:last-child {
+    margin-bottom: 3rem;
+    border-bottom: none;
+  }
 `;
 
 export const Title = styled.h1`
@@ -72,5 +107,6 @@ export const Title = styled.h1`
   text-align: left;
   font-size: 20px;
   color: #495057;
-  margin: 0.375rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
 `;
