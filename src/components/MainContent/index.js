@@ -1,6 +1,16 @@
 import React from 'react';
 
-import { StyledLink, SideBarHeading, CentralHeading } from './styles';
+import IconCard from '../IconCard';
+import {
+  StyledLink,
+  SideBarHeading,
+  CentralHeading,
+  Row,
+  Title,
+} from './styles';
+
+import Microscope from './img/microscope.png';
+import RoboticArm from './img/roboticArm.png';
 
 export default function MainContent() {
   return (
@@ -21,19 +31,51 @@ export default function MainContent() {
         <div id="page-content-wrapper">
           <div className="container-fluid">
             <CentralHeading>Todas as categorias</CentralHeading>
-            <h1 className="mt-4">Simple Sidebar</h1>
-            <p>
-              The starting state of the menu will appear collapsed on smaller
-              screens, and will appear non-collapsed on larger screens. When
-              toggled using the button below, the menu will change.
-            </p>
-            <p>
-              Make sure to keep all page content within the{' '}
-              <code>#page-content-wrapper</code>. The top navbar is optional,
-              and just for demonstration. Just create an element with the{' '}
-              <code>#menu-toggle</code> ID which will toggle the menu when
-              clicked.
-            </p>
+            <Row>
+              <Title>Test</Title>
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={RoboticArm} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+            </Row>
+            <Row>
+              <Title>Test</Title>
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+            </Row>
           </div>
         </div>
       </div>

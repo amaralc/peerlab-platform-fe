@@ -49,7 +49,7 @@ export const SideBarHeading = styled.div`
 `;
 
 export const CentralHeading = styled.div`
-  padding: 0.375rem;
+  padding: 0.375rem 0.25rem;
   color: #495057;
   font-size: 1rem;
   font-weight: 500;
@@ -61,4 +61,16 @@ export const Row = styled.div`
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding: 1rem 0.25rem;
+  margin-top: -0.75rem;
+`;
+
+export const Title = styled.h1`
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #495057;
+  margin: 0.375rem;
 `;
