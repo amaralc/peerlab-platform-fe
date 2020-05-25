@@ -11,6 +11,10 @@ export const MainContainer = styled.div`
   margin-left: auto;
   margin-top: 15px;
 
+  @media (min-width: 320px) {
+    max-width: 310px;
+  }
+
   @media (min-width: 576px) {
     max-width: 540px;
   }
