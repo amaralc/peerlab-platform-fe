@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const Card = styled.div`
+export const Card = styled(Link)`
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -12,6 +13,11 @@ export const Card = styled.div`
   height: 100% !important;
   border-radius: 0.25rem;
   margin: 0.325rem;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
 `;
 
 export const CardImg = styled.img`
