@@ -1,0 +1,44 @@
+import styled from 'styled-components';
+
+export const Card = styled.div`
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  height: 100% !important;
+  border-radius: 0.25rem;
+  margin: 0.325rem;
+`;
+
+export const CardImg = styled.img`
+  width: 62px;
+  height: 62px;
+  border-radius: calc(0.25rem - 1px);
+  border: 1px solid #eee;
+  filter: grayscale(1);
+
+  &:hover {
+    filter: grayscale(1) sepia(0.5);
+  }
+`;
+
+export const CardText = styled.p`
+  font-size: 0.875rem;
+  color: #666;
+  line-height: 1.15;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+`;
+
+export const CardBody = styled.div`
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  align-self: center;
+  padding: 0.25rem;
+`;

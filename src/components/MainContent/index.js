@@ -1,68 +1,81 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+import IconCard from '../IconCard';
+import {
+  StyledLink,
+  SideBarHeading,
+  CentralHeading,
+  Row,
+  Title,
+} from './styles';
+
+import Microscope from './img/microscope.png';
+import RoboticArm from './img/roboticArm.png';
 
 export default function MainContent() {
   return (
     <>
       <div className="d-flex" id="wrapper">
         <div className="bg-light border-right" id="sidebar-wrapper">
-          <div className="sidebar-heading">Start Bootstrap </div>
+          <SideBarHeading>Escolha uma categoria</SideBarHeading>
           <div className="list-group list-group-flush">
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Dashboard
-            </Link>
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Shortcuts
-            </Link>
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Overview
-            </Link>
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Events
-            </Link>
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Profile
-            </Link>
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Status
-            </Link>
+            <StyledLink to="/">Dashboard</StyledLink>
+            <StyledLink to="/">Shortcuts</StyledLink>
+            <StyledLink to="/">Overview</StyledLink>
+            <StyledLink to="/">Events</StyledLink>
+            <StyledLink to="/">Profile</StyledLink>
+            <StyledLink to="/">Status</StyledLink>
           </div>
         </div>
 
         <div id="page-content-wrapper">
           <div className="container-fluid">
-            <h1 className="mt-4">Simple Sidebar</h1>
-            <p>
-              The starting state of the menu will appear collapsed on smaller
-              screens, and will appear non-collapsed on larger screens. When
-              toggled using the button below, the menu will change.
-            </p>
-            <p>
-              Make sure to keep all page content within the{' '}
-              <code>#page-content-wrapper</code>. The top navbar is optional,
-              and just for demonstration. Just create an element with the{' '}
-              <code>#menu-toggle</code> ID which will toggle the menu when
-              clicked.
-            </p>
+            <CentralHeading>Todas as categorias</CentralHeading>
+            <Row>
+              <Title>Test</Title>
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={RoboticArm} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+            </Row>
+            <Row>
+              <Title>Test</Title>
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+              <IconCard cardText="test" cardImgSrc={Microscope} />
+            </Row>
           </div>
         </div>
       </div>
