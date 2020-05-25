@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { StyledLink } from './styles';
+import { StyledLink, SideBarHeading, CentralHeading } from './styles';
 
 export default function MainContent() {
   return (
     <>
       <div className="d-flex" id="wrapper">
         <div className="bg-light border-right" id="sidebar-wrapper">
-          <div className="sidebar-heading">Start Bootstrap </div>
+          <SideBarHeading>Escolha uma categoria</SideBarHeading>
           <div className="list-group list-group-flush">
             <StyledLink to="/">Dashboard</StyledLink>
             <StyledLink to="/">Shortcuts</StyledLink>
@@ -20,6 +20,7 @@ export default function MainContent() {
 
         <div id="page-content-wrapper">
           <div className="container-fluid">
+            <CentralHeading>Todas as categorias</CentralHeading>
             <h1 className="mt-4">Simple Sidebar</h1>
             <p>
               The starting state of the menu will appear collapsed on smaller

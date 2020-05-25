@@ -16,12 +16,10 @@ export const MainContainer = styled.div`
 export const StyledLink = styled(Link)`
   position: relative;
   display: block;
-  padding: 0.375rem 1.25rem;
-  margin-bottom: -1px;
+  padding: 0.25rem 1.25rem;
   background-color: #f8f9fa !important;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-
+  font-size: 1rem;
   width: 100%;
   color: #495057;
   text-align: inherit;
@@ -40,4 +38,27 @@ export const StyledLink = styled(Link)`
     background-color: #e9ecef;
     background-color: #dae0e5 !important;
   }
+`;
+
+export const SideBarHeading = styled.div`
+  padding: 0.375rem 1.25rem;
+  color: #495057;
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: 2px solid #ffd900;
+`;
+
+export const CentralHeading = styled.div`
+  padding: 0.375rem;
+  color: #495057;
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: 2px solid #ffd900;
+`;
+
+export const Row = styled.div`
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 `;
