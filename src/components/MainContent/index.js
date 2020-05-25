@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+import { StyledLink } from './styles';
 
 export default function MainContent() {
   return (
@@ -9,42 +9,12 @@ export default function MainContent() {
         <div className="bg-light border-right" id="sidebar-wrapper">
           <div className="sidebar-heading">Start Bootstrap </div>
           <div className="list-group list-group-flush">
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Dashboard
-            </Link>
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Shortcuts
-            </Link>
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Overview
-            </Link>
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Events
-            </Link>
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Profile
-            </Link>
-            <Link
-              to="/"
-              className="list-group-item list-group-item-action bg-light"
-            >
-              Status
-            </Link>
+            <StyledLink to="/">Dashboard</StyledLink>
+            <StyledLink to="/">Shortcuts</StyledLink>
+            <StyledLink to="/">Overview</StyledLink>
+            <StyledLink to="/">Events</StyledLink>
+            <StyledLink to="/">Profile</StyledLink>
+            <StyledLink to="/">Status</StyledLink>
           </div>
         </div>
 
