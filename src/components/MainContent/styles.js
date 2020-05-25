@@ -13,6 +13,11 @@ export const MainContainer = styled.div`
   }
 `;
 
+export const DFlex = styled.div`
+  display: -ms-flexbox !important;
+  display: flex !important;
+`;
+
 export const SideBarItem = styled(Link)`
   position: relative;
   display: block;

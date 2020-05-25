@@ -2,6 +2,7 @@ import React from 'react';
 
 import IconCard from '../IconCard';
 import {
+  DFlex,
   SideBarItem,
   SideBarHeading,
   SideBarGap,
@@ -16,7 +17,7 @@ import RoboticArm from './img/roboticArm.png';
 export default function MainContent() {
   return (
     <>
-      <div className="d-flex" id="wrapper">
+      <DFlex id="wrapper">
         <div className="bg-light border-right" id="sidebar-wrapper">
           <SideBarHeading>Escolha uma categoria</SideBarHeading>
           <div className="list-group list-group-flush">
@@ -111,7 +112,7 @@ export default function MainContent() {
             </Row>
           </div>
         </div>
-      </div>
+      </DFlex>
     </>
   );
 }
