@@ -1,13 +1,28 @@
 import React from 'react';
+import { MainContainer } from './styles';
 
 export default function MainContent() {
   return (
     <>
-      <div className="container">
+      <MainContainer>
         <div className="row">
-          <p>Content Here</p>
+          <div className="col-md-3 mb-5">
+            <p>Choose a category</p>
+            <hr />
+            <a className="btn btn-primary btn-lg" href="/">
+              Call to Action &raquo;
+            </a>
+          </div>
+          <div className="col-md-9 mb-5">
+            <p>All categories</p>
+            <hr />
+
+            <a className="btn btn-primary btn-lg" href="/">
+              Call to Action &raquo;
+            </a>
+          </div>
         </div>
-      </div>
+      </MainContainer>
     </>
   );
 }
