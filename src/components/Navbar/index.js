@@ -26,10 +26,9 @@ export default function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
-                <NavItem item="Home" route="/" />
-                <NavItem item="About" route="/" />
-                <NavItem item="Services" route="/" />
-                <NavItem item="Contact" route="/" />
+                <NavItem item="Contato" route="/" />
+                <NavItem item="Pedidos" route="/" />
+                <NavItem item="Login" route="/" />
               </ul>
             </div>
           </NavbarContainer>
