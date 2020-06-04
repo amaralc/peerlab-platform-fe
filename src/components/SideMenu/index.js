@@ -1,38 +1,29 @@
 import React from 'react';
-import {
-  DFlex,
-  SideNav,
-  ListGroup,
-  SideBarItem,
-  SideBarHeading,
-  SideBarGap,
-} from './styles';
+import { DFlex, SideNav } from './styles';
+import SideCategoryList from '../SideCategoryList';
 
-export default function SideMenu(props) {
+export default function SideMenu() {
   return (
     <DFlex id="wrapper">
       <SideNav id="sidebar-wrapper">
-        <SideBarHeading>{props.title}</SideBarHeading>
-        <ListGroup className=" list-group-flush">
-          <SideBarItem to="/">{props.categoria1}</SideBarItem>
-          <SideBarItem to="/">{props.categoria2}</SideBarItem>
-          <SideBarItem to="/">{props.categoria3}</SideBarItem>
-          <SideBarItem to="/">{props.categoria4}</SideBarItem>
-          <SideBarItem to="/">{props.categoria5}</SideBarItem>
-          <SideBarItem to="/">{props.categoria6}</SideBarItem>
-        </ListGroup>
-
-        <SideBarGap />
-
-        <SideBarHeading>{props.titlese}</SideBarHeading>
-        <ListGroup className=" list-group-flush">
-          <SideBarItem to="/">{props.lab1}</SideBarItem>
-          <SideBarItem to="/">{props.lab2}</SideBarItem>
-          <SideBarItem to="/">{props.lab3}</SideBarItem>
-          <SideBarItem to="/">{props.lab4}</SideBarItem>
-          <SideBarItem to="/">{props.lab5}</SideBarItem>
-          <SideBarItem to="/">{props.lab6}</SideBarItem>
-        </ListGroup>
+        <SideCategoryList
+          title="Escolha uma categoria"
+          category1="Categoria 01"
+          category2="Categoria 02"
+          category3="Categoria 03"
+          category4="Categoria 04"
+          category5="Categoria 05"
+          category6="Categoria 06"
+        />
+        <SideCategoryList
+          title="Escolha um laboratório"
+          category1="Laboratório 01"
+          category2="Laboratório 02"
+          category3="Laboratório 03"
+          category4="Laboratório 04"
+          category5="Laboratório 05"
+          category6="Laboratório 06"
+        />
       </SideNav>
     </DFlex>
   );
