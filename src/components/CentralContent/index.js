@@ -1,5 +1,5 @@
 import React from 'react';
-import CentralCategoriesList from './CentralCategoriesList';
+import CentralCategoriesList from '../CentralCategoriesList';
 import { CentralHeading } from './styles';
 
 function CentralContent(props) {
