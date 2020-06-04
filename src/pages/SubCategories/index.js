@@ -1,12 +1,12 @@
 import React from 'react';
 
-import SideMenu from '../../components/SideMenu';
+import SideContent from '../../components/SideContent';
 import CentralContent from './components/CentralContent';
 
 export default function Home() {
   return (
     <>
-      <SideMenu />
+      <SideContent />
       <CentralContent title="Sub categorias" />
     </>
   );
