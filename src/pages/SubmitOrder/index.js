@@ -1,12 +1,12 @@
 import React from 'react';
 
-import SideContent from '../../components/SideContent';
+import LabContent from '../../components/LabContent';
 import CentralContent from './components/CentralContent';
 
 export default function Home() {
   return (
     <>
-      <SideContent />
+      <LabContent />
       <CentralContent title="Faça o pedido" />
     </>
   );
