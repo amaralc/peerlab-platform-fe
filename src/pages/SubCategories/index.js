@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <SideMenu />
-      <CentralContent title="Todas as categorias" />
+      <CentralContent title="Sub categorias" />
     </>
   );
 }
