@@ -13,8 +13,8 @@ import {
   Title,
 } from './styles';
 
-import Microscope from './img/microscope.png';
-import RoboticArm from './img/roboticArm.png';
+import Microscope from '../../pages/Home/img/microscope.png';
+import RoboticArm from '../../pages/Home/img/roboticArm.png';
 
 export default function MainContent() {
   return (
