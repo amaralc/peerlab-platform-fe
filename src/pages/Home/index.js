@@ -1,11 +1,13 @@
 import React from 'react';
 
-import MainContent from '../../components/MainContent';
+import SideMenu from '../../components/SideMenu';
+import CentralMenu from '../../components/CentralMenu';
 
 export default function Home() {
   return (
     <>
-      <MainContent />
+      <SideMenu />
+      <CentralMenu />
     </>
   );
 }
