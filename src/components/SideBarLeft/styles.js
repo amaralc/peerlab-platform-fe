@@ -1,9 +1,17 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const DFlex = styled.div`
-  display: -ms-flexbox !important;
-  display: flex !important;
+export const Container = styled.div`
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+
+  @media (min-width: 768px) {
+    margin-left: 0;
+  }
 `;
 
 export const SideNav = styled.div`

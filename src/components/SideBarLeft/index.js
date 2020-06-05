@@ -1,12 +1,12 @@
 import React from 'react';
-import { DFlex, SideNav } from './styles';
+import { Container, SideNav } from './styles';
 
 export default function SideBarLeft(props) {
   return (
-    <DFlex id="wrapper">
+    <Container>
       <SideNav id="sidebar-wrapper">
         <main>{props.children}</main>
       </SideNav>
-    </DFlex>
+    </Container>
   );
 }
