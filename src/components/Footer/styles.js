@@ -6,10 +6,15 @@ export const FooterWrapper = styled.footer`
   margin-right: auto;
   margin-left: auto;
   margin-top: 15px;
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
   background-color: #343a40 !important;
   position: absolute;
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 1;
 
   @media (max-width: 300px) {
