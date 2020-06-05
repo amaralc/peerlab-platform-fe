@@ -10,6 +10,9 @@ export default function CentralServiceList(props) {
           <h5>{props.title}</h5>
           <p>{props.text}</p>
           <p>{props.contact}</p>
+          <a href={props.url} target="_blank" rel="noopener noreferrer">
+            {props.button}
+          </a>
         </Body>
       </Container>
     </Row>
