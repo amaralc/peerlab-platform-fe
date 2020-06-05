@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Title } from './styles';
-import IconCard from '../../../../components/IconCard';
+import IconCard from '../../../../../components/IconCard';
 
 import Microscope from '../../img/microscope.png';
 

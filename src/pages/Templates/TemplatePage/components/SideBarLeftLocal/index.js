@@ -1,7 +1,7 @@
 import React from 'react';
-import SideBarLeft from '../../../../components/SideBarLeft';
-import SideBarCategoryList from '../../../../components/SideBarCategoryList';
-import SideBarItem from '../../../../components/SideBarItem';
+import SideBarLeft from '../../../../../components/SideBarLeft';
+import SideBarCategoryList from '../../../../../components/SideBarCategoryList';
+import SideBarItem from '../../../../../components/SideBarItem';
 
 // import { Container } from './styles';
 
