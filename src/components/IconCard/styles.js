@@ -34,7 +34,7 @@ export const CardImg = styled.img`
 
 export const CardText = styled.p`
   font-size: 0.875rem;
-  color: #666;
+  color: #aaa;
   line-height: 1.15;
 
   &:last-child {
