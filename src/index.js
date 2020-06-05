@@ -8,8 +8,8 @@ import * as serviceWorker from './serviceWorker';
 import Home from './pages/Home';
 import SubCategories from './pages/SubCategories';
 import SubmitOrder from './pages/SubmitOrder';
-import TemplatePage from './pages/Templates/TemplatePage';
-import TemplatePageSecondLevel from './pages/Templates/TemplatePageSecondLevel';
+import TemplatePage1 from './pages/_templates/TemplatePage1';
+import TemplatePage2 from './pages/_templates/TemplatePage2';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -18,11 +18,8 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route path="/sub-categories" component={SubCategories} />
         <Route path="/submit-order" component={SubmitOrder} />
-        <Route path="/template-page" component={TemplatePage} />
-        <Route
-          path="/template-page-second-level"
-          component={TemplatePageSecondLevel}
-        />
+        <Route path="/template-page-1" component={TemplatePage1} />
+        <Route path="/template-page-2" component={TemplatePage2} />
         <Redirect to="/" />
       </Switch>
     </App>
