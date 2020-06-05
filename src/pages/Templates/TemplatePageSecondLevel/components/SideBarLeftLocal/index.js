@@ -1,7 +1,7 @@
 import React from 'react';
-import SideBarLeft from '../../../../components/SideBarLeft';
-import SideBarCategoryList from '../../../../components/SideBarCategoryList';
-import SideBarLabCard from '../../../../components/SideBarLabCard';
+import SideBarLeft from '../../../../../components/SideBarLeft';
+import SideBarCategoryList from '../../../../../components/SideBarCategoryList';
+import SideBarLabCard from '../../../../../components/SideBarLabCard';
 
 import Lmp from '../../img/lmp.png';
 
