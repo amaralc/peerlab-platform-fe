@@ -1,0 +1,26 @@
+import styled from 'styled-components';
+
+export const Row = styled.div`
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ffd90033;
+
+  &:last-child {
+    margin-bottom: 3rem;
+    border-bottom: none;
+  }
+`;
+
+export const Title = styled.h1`
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #495057;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+`;
