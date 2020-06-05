@@ -25,7 +25,7 @@ export const Container = styled.div`
     border-radius: 0.5rem;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     width: 150px;
-    height: 150px;
+    height: 200px;
     border: 2px solid #eee;
   }
 `;
@@ -42,12 +42,41 @@ export const Body = styled.div`
     color: #333333;
   }
 
-  p:last-child {
+  p {
     font-size: 14px;
     width: 100%;
     word-break: normal;
     margin-top: 5px;
   }
+
+  a {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+
+    color: #fff;
+    background-color: #c0c0c0;
+    border-color: #c0c0c0;
+  }
+
+  a:hover {
+    color: #fff;
+    background-color: #808080;
+    border-color: #808080;
+    text-decoration: none;
+  }
+
+}
 `;
 
 export const Gap = styled.div`
