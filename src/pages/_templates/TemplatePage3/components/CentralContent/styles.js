@@ -9,5 +9,5 @@ export const CentralHeading = styled.div`
 `;
 
 export const Div = styled.div`
-  padding-left: 245px !important;
+  padding-left: 243px !important;
 `;

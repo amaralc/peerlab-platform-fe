@@ -1,12 +1,14 @@
 import React from 'react';
-import { DFlex, SideNav } from './styles';
+import { Div, SideNav } from './styles';
 
-export default function SideBarRight(props) {
+function Right(props) {
   return (
-    <DFlex>
+    <Div>
       <SideNav>
         <main>{props.children}</main>
       </SideNav>
-    </DFlex>
+    </Div>
   );
 }
+
+export default Right;
