@@ -1,16 +1,16 @@
 import React from 'react';
 
-import { Container, SideBarItem } from './styles';
+import { Container, Image, InfoContainer, InfoTitle, InfoText } from './styles';
 
 function SideBarLabCard(props) {
   return (
     <>
       <Container to="/">
-        <SideBarItem to="/">
-          <h5>{props.name}</h5>
-          <p>{props.text}</p>
-          <img src={props.imgPath} alt="" />
-        </SideBarItem>
+        <Image src={props.imagePath} alt="" />
+        <InfoContainer>
+          <InfoTitle>{props.title}</InfoTitle>
+          <InfoText>{props.text}</InfoText>
+        </InfoContainer>
       </Container>
     </>
   );
