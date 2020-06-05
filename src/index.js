@@ -6,20 +6,20 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import Home from './pages/Home';
-import SubCategories from './pages/SubCategories';
-import SubmitOrder from './pages/SubmitOrder';
-import TemplatePage1 from './pages/_templates/TemplatePage1';
-import TemplatePage2 from './pages/_templates/TemplatePage2';
+import SubCategories from './pages/Page01';
+import SubmitOrder from './pages/Page02';
+import TemplatePage01 from './pages/_templates/TemplatePage01';
+import TemplatePage02 from './pages/_templates/TemplatePage02';
 
 ReactDOM.render(
   <BrowserRouter>
     <App>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/sub-categories" component={SubCategories} />
-        <Route path="/submit-order" component={SubmitOrder} />
-        <Route path="/template-page-1" component={TemplatePage1} />
-        <Route path="/template-page-2" component={TemplatePage2} />
+        <Route path="/page-01" component={SubCategories} />
+        <Route path="/page-02" component={SubmitOrder} />
+        <Route path="/template-page-01" component={TemplatePage01} />
+        <Route path="/template-page-02" component={TemplatePage02} />
         <Redirect to="/" />
       </Switch>
     </App>
