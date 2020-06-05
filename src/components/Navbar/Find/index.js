@@ -1,6 +1,5 @@
 import React from 'react';
-import Icon from '../img/findIcon.png';
-import { Img, Input, Container } from './styles';
+import { Input } from './styles';
 
 export default function Find() {
   return (
