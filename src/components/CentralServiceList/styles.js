@@ -19,7 +19,7 @@ export const Container = styled.div`
   border-radius: 4px;
   border: 1px solid #eee;
   padding: 15px 10px;
-  width: 60%;
+  width: 100%;
 
   img {
     border-radius: 0.5rem;
