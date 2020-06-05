@@ -7,7 +7,7 @@ import Microscope from '../../img/microscope.png';
 function CentralContentLocal() {
   return (
     <CentralContent title="Todas as categorias">
-      <CentralCategoriesList title="Grupo 01">
+      <CentralCategoriesList title="Projeto e desenvolvimento">
         <IconCard
           cardText="Item"
           cardImgSrc={Microscope}
@@ -34,7 +34,7 @@ function CentralContentLocal() {
           cardRoute="/page-01"
         />
       </CentralCategoriesList>
-      <CentralCategoriesList title="Grupo 02">
+      <CentralCategoriesList title="Fabricação e prototipagem">
         <IconCard
           cardText="Item"
           cardImgSrc={Microscope}
@@ -61,7 +61,7 @@ function CentralContentLocal() {
           cardRoute="/page-01"
         />
       </CentralCategoriesList>
-      <CentralCategoriesList title="Grupo 03">
+      <CentralCategoriesList title="Medição, análises e ensaios">
         <IconCard
           cardText="Item"
           cardImgSrc={Microscope}
