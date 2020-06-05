@@ -2,6 +2,7 @@ import React from 'react';
 import SideBarLeft from '../../../../../components/SideBarLeft';
 import SideBarCategoryList from '../../../../../components/SideBarCategoryList';
 import SideBarLabCard from '../../../../../components/SideBarLabCard';
+import SideBarLabCard2 from '../../../../../components/SideBarLabCard2';
 
 import Lmp from '../../img/lmp.png';
 
@@ -13,13 +14,15 @@ function SideBarLeftLocal() {
       <SideBarCategoryList title="Laboratórios">
         <SideBarLabCard
           title="LMP"
-          text="Laboratório de Mecânica de Precisão"
-          imagePath={Lmp}
+          subtitle="Laboratório de Mecânica de Precisão"
+          imgPath={Lmp}
         />
-        <SideBarLabCard
+        <SideBarLabCard2
           title="LABSOLDA"
-          text="Laboratório de Soldagem"
-          imagePath={Lmp}
+          subtitle="Laboratório de Soldagem"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
+          imgPath={Lmp}
         />
       </SideBarCategoryList>
     </SideBarLeft>
