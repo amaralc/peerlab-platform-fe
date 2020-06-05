@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Title } from './styles';
+import { Wrapper, Container, Title } from './styles';
 
-export default function CentralCategoriesList(props) {
+export default function CentralSubCategoriesList(props) {
   return (
-    <Container>
+    <Wrapper>
       <Title>{props.title}</Title>
-      {props.children}
-    </Container>
+      <Container>{props.children}</Container>
+    </Wrapper>
   );
 }

@@ -15,49 +15,78 @@ function CentralContentLocal() {
           <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
           <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
           <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        </CentralSubCategoriesList>
+        <CentralSubCategoriesList title="SubCategory 02">
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        </CentralSubCategoriesList>
+        <CentralSubCategoriesList title="SubCategory 03">
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        </CentralSubCategoriesList>
+        <CentralSubCategoriesList title="SubCategory 04">
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        </CentralSubCategoriesList>
+        <CentralSubCategoriesList title="SubCategory 01">
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
         </CentralSubCategoriesList>
         <CentralSubCategoriesList title="SubCategory 01">
           <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
           <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
           <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
           <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
         </CentralSubCategoriesList>
         <CentralSubCategoriesList title="SubCategory 01">
-          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
           <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
           <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
         </CentralSubCategoriesList>
       </CentralCategoriesList>
       <CentralCategoriesList title="Grupo 02">
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        <CentralSubCategoriesList title="SubCategory 01">
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        </CentralSubCategoriesList>
+        <CentralSubCategoriesList title="SubCategory 02">
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        </CentralSubCategoriesList>
+        <CentralSubCategoriesList title="SubCategory 03">
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        </CentralSubCategoriesList>
       </CentralCategoriesList>
       <CentralCategoriesList title="Grupo 03">
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-      </CentralCategoriesList>
-      <CentralCategoriesList title="Grupo 04">
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-      </CentralCategoriesList>
-      <CentralCategoriesList title="Grupo 05">
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
-        <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        <CentralSubCategoriesList title="SubCategory 01">
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        </CentralSubCategoriesList>
+        <CentralSubCategoriesList title="SubCategory 02">
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        </CentralSubCategoriesList>
+        <CentralSubCategoriesList title="SubCategory 03">
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+          <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />
+        </CentralSubCategoriesList>
       </CentralCategoriesList>
     </CentralContent>
   );
