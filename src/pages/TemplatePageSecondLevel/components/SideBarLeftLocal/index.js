@@ -12,14 +12,14 @@ function SideBarLeftLocal() {
     <SideBarLeft>
       <SideBarCategoryList title="Laboratórios">
         <SideBarLabCard
-          title="LMP"
+          name="LMP"
           text="Laboratório de Mecânica de Precisão"
-          imagePath={Lmp}
+          imgPath={Lmp}
         />
         <SideBarLabCard
-          title="LABSOLDA"
+          name="LABSOLDA"
           text="Laboratório de Soldagem"
-          imagePath={Lmp}
+          imgPath={Lmp}
         />
       </SideBarCategoryList>
     </SideBarLeft>
