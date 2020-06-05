@@ -19,7 +19,7 @@ function SideBarLeftLocal() {
         />
         <SideBarLabCard2
           title="LABSOLDA"
-          subtitle="Laboratório de Soldagem"
+          subtitle="Instituto de Soldagem e Mecatrônica"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
           imgPath={Lmp}
