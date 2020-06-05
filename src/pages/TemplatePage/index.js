@@ -1,14 +1,13 @@
 import React from 'react';
 
+import SideBarLeftLocal from './components/SideBarLeftLocal';
 import CentralContent from './components/CentralContent';
-
-import LabContent from '../../components/LabContent';
 
 export default function Home() {
   return (
     <>
-      <LabContent title="Laboratórios" />
-      <CentralContent title="Sub categorias" />
+      <SideBarLeftLocal />
+      <CentralContent title="Faça o pedido" />
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { DFlex, SideNav } from './styles';
 import SideCategoryList from '../SideCategoryList';
 
-export default function SideMenu() {
+export default function SideContent() {
   return (
     <DFlex id="wrapper">
       <SideNav id="sidebar-wrapper">
