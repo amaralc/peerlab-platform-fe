@@ -6,10 +6,10 @@ function SideBarLabCard(props) {
   return (
     <>
       <Container to="/">
-        <Image src={props.imagePath} alt="" />
+        <Image src={props.imgPath} alt="" />
         <InfoContainer>
           <InfoTitle>{props.title}</InfoTitle>
-          <InfoText>{props.text}</InfoText>
+          <InfoText>{props.subtitle}</InfoText>
         </InfoContainer>
       </Container>
     </>

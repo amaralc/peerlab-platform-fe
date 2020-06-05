@@ -9,8 +9,8 @@ function SideBarLabCard(props) {
         <SideBarItem to="/">
           <img src={props.imgPath} alt="" />
           <h5>
-            {props.name}
-            <p>{props.subname}</p>
+            {props.title}
+            <p>{props.subtitle}</p>
           </h5>
           <p>{props.text}</p>
         </SideBarItem>
