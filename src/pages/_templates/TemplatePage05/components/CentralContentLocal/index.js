@@ -3,24 +3,28 @@ import CentralContent from '../../../../../components/CentralContent';
 
 import CentralServiceList from '../../../../../components/CentralServiceList';
 
-import LMP from '../../img/lmp.png';
+import Ensaio from '../../img/Ensaio.jpg';
 
 function CentralContentLocal() {
   return (
     <CentralContent title="Solicite o seu serviço">
       <CentralServiceList
-        imgPath={LMP}
+        imgPath={Ensaio}
         title="Ensaio de tração"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
-        contact="(48)998560006"
+        contact="(48)999999999"
+        url="/"
+        button="Solicite"
       />
       <CentralServiceList
-        imgPath={LMP}
+        imgPath={Ensaio}
         title="Ensaio de tração"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
-        contact="(48)998560006"
+        contact="(48)999999999"
+        url="/"
+        button="Solicite"
       />
     </CentralContent>
   );
