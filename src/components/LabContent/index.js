@@ -1,5 +1,5 @@
 import React from 'react';
-import { DFlex, SideNav, SideBarHeading } from './styles';
+import { DFlex, SideNav, SideBarHeading, SideBarGap } from './styles';
 import LabList from '../LabList';
 import LMP from '../../pages/SubCategories/img/lmp.png';
 
@@ -10,8 +10,15 @@ export default function LabContent(props) {
         <SideBarHeading>{props.title}</SideBarHeading>
         <LabList
           imgPath={LMP}
-          name="LMP"
-          text="Laboratório de mecânica de precisão"
+          name="Laboratório de mecânica de precisão"
+          text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt
+          neque tempore recusandae animi soluta quasi?"
+        />
+        <LabList
+          imgPath={LMP}
+          name="Laboratório de Soldagem e Mec"
+          text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt
+          neque tempore recusandae animi soluta quasi?"
         />
       </SideNav>
     </DFlex>
