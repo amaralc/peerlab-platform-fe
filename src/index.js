@@ -8,8 +8,8 @@ import * as serviceWorker from './serviceWorker';
 import Home from './pages/Home';
 import SubCategories from './pages/SubCategories';
 import SubmitOrder from './pages/SubmitOrder';
-import TemplatePage from './pages/Templates/TemplatePage';
-import TemplatePageSecondLevel from './pages/Templates/TemplatePageSecondLevel';
+import TemplatePage from './pages/Templates/TemplatePage1';
+import TemplatePageSecondLevel from './pages/Templates/TemplatePage2';
 
 ReactDOM.render(
   <BrowserRouter>
