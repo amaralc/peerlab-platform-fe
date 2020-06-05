@@ -29,48 +29,32 @@ export const Container = styled(Link)`
   }
 `;
 
-export const SideBarItem = styled(Link)`
-  position: relative;
-  display: block;
-  padding: 0.25rem 1.25rem;
-  background-color: #f8f9fa !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  font-size: 1rem;
+export const InfoContainer = styled.div`
   width: 100%;
-  color: #495057;
-  text-align: inherit;
+  display: flex;
+  flex-direction: column;
+`;
 
-  img {
-    width: 100%;
-    border-top-left-radius: calc(0.25rem - 1px);
-    border-top-right-radius: calc(0.25rem - 1px);
-  }
+export const Image = styled.img`
+  padding-top: 1rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 6px;
+  object-fit: cover;
+`;
 
-  h5 {
-    margin-bottom: 0.75rem;
-  }
+export const InfoTitle = styled.div`
+  padding-top: 1rem;
+  font-weight: 600;
+  font-size: 16px;
+  height: 48;
+  line-height: 16px;
+  color: #333333;
+`;
 
-  p:last-child {
-    margin-bottom: 0;
-  }
-
-  h5,
-  p {
-    text-align: left !important;
-  }
-
-  &:hover,
-  &:focus {
-    z-index: 1;
-    color: #495057;
-    text-decoration: none;
-    background-color: #f8f9fa;
-    background-color: #dae0e5 !important;
-  }
-
-  &:active {
-    color: #212529;
-    background-color: #e9ecef;
-    background-color: #dae0e5 !important;
-  }
+export const InfoText = styled.div`
+  padding: 0.25rem 0;
+  font-size: 14px;
+  width: 100%;
+  word-break: normal;
 `;
