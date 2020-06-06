@@ -7,7 +7,7 @@ import { Container } from './styles';
 import SideBarCategoryList from '../../../components/SideBarCategoryList';
 import SideBarItem from '../../../components/SideBarItem';
 
-export default function TemplatePage3() {
+export default function TemplatePage03() {
   return (
     <Container>
       <SideBarLeftLocal />
