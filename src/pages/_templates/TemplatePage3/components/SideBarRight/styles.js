@@ -18,4 +18,13 @@ export const SideNav = styled.div`
   z-index: 1;
   flex-grow: 1;
   height: 100%;
+  min-height: 100vh;
+  margin-right: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+  @media (min-width: 768px) {
+    margin-right: 0;
+  }
 `;
