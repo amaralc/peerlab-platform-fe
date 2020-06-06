@@ -8,8 +8,10 @@ import * as serviceWorker from './serviceWorker';
 import Home from './pages/Home';
 import SubCategories from './pages/Page01';
 import SubmitOrder from './pages/Page02';
+import TemplatePage00 from './pages/_templates/TemplatePage00';
 import TemplatePage01 from './pages/_templates/TemplatePage01';
 import TemplatePage02 from './pages/_templates/TemplatePage02';
+import TemplatePage03 from './pages/_templates/TemplatePage03';
 import TemplatePage04 from './pages/_templates/TemplatePage04';
 import TemplatePage05 from './pages/_templates/TemplatePage05';
 
@@ -20,8 +22,10 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route path="/page-01" component={SubCategories} />
         <Route path="/page-02" component={SubmitOrder} />
+        <Route path="/template-page-00" component={TemplatePage00} />
         <Route path="/template-page-01" component={TemplatePage01} />
         <Route path="/template-page-02" component={TemplatePage02} />
+        <Route path="/template-page-03" component={TemplatePage03} />
         <Route path="/template-page-04" component={TemplatePage04} />
         <Route path="/template-page-05" component={TemplatePage05} />
         <Redirect to="/" />
