@@ -11,6 +11,7 @@ import SubmitOrder from './pages/Page02';
 import TemplatePage01 from './pages/_templates/TemplatePage01';
 import TemplatePage02 from './pages/_templates/TemplatePage02';
 import TemplatePage04 from './pages/_templates/TemplatePage04';
+import TemplatePage05 from './pages/_templates/TemplatePage05';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Route path="/template-page-01" component={TemplatePage01} />
         <Route path="/template-page-02" component={TemplatePage02} />
         <Route path="/template-page-04" component={TemplatePage04} />
+        <Route path="/template-page-05" component={TemplatePage05} />
         <Redirect to="/" />
       </Switch>
     </App>
