@@ -17,8 +17,8 @@ export const Container = styled.div`
   background-clip: border-box;
   height: 100% !important;
   border-radius: 4px;
-  border: 1px solid #eee;
-  padding: 15px 10px;
+  border: 1px solid transparent;
+  padding: 0px 5px;
   width: 100%;
 
   img {
