@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 export default function App(props) {
   return (
     <>
-      <Navbar navbarBrand="Start Bootstrap" />
+      <Navbar />
       <main>{props.children}</main>
       <Footer />
     </>
