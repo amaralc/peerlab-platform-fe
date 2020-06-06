@@ -6,7 +6,7 @@ import { Container, Brand, Button } from './styles';
 export default function NavbarFlex() {
   return (
     <Container>
-      <nav className="navbar navbar-expand-lg navbar-dark ">
+      <nav className="navbar navbar-expand-lg ">
         <Brand to="/">peerLab</Brand>
         <Button
           type="button"
