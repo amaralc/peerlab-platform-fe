@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
 
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import AppWrapper from './components/AppWrapper';
+import FlexNavbar from './components/FlexNavbar';
+import FlexFooter from './components/FlexFooter';
 
 export default function App(props) {
   return (
-    <>
-      <Navbar />
+    <AppWrapper>
+      <FlexNavbar />
       <main>{props.children}</main>
-      <Footer />
-    </>
+      <FlexFooter />
+    </AppWrapper>
   );
 }
