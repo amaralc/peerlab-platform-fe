@@ -9,7 +9,7 @@ import Microscope from '../../img/microscope.png';
 export default function ContentCenter(props) {
   return (
     <Container>
-      <Title>{props.title}</Title>
+      <Title>Todas as categorias</Title>
       <CentralCategoriesList title="Grupo 01">
         <CentralSubCategoriesList title="SubCategory 01">
           <IconCard cardText="Item" cardImgSrc={Microscope} cardRoute="/" />

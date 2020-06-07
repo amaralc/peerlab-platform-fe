@@ -5,7 +5,7 @@ export const Container = styled(Link)`
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 0.25rem 1.25rem;
+  padding: 0.25rem 0.75rem;
   background-color: #f8f9fa !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   font-size: 1rem;
