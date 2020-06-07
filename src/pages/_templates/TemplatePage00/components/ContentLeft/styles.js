@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 15rem;
   margin-left: -15rem;
   -webkit-transition: margin 0.25s ease-out;
   -moz-transition: margin 0.25s ease-out;
@@ -9,11 +8,13 @@ export const Container = styled.div`
   transition: margin 0.25s ease-out;
   background-color: #f8f9fa !important;
   border-right: 1px solid #dee2e6 !important;
-
-  position: relative;
+  flex: 0 0 15rem;
 
   border: solid;
   border-color: #00f;
+
+  max-height: 100%;
+  overflow-y: scroll;
 
   @media (min-width: 768px) {
     margin-left: 0;
