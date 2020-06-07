@@ -10,13 +10,15 @@ import TemplatePage00 from './pages/_templates/TemplatePage00';
 import TemplatePage01 from './pages/_templates/TemplatePage01';
 import TemplatePage02 from './pages/_templates/TemplatePage02';
 import TemplatePage03 from './pages/_templates/TemplatePage03';
+import Page00 from './pages/Page00';
 
 ReactDOM.render(
   <BrowserRouter>
     <App>
       <Switch>
-        <Route exact path="/" component={TemplatePage01} />
+        <Route exact path="/" component={Page00} />
         <Route path="/template-page-00" component={TemplatePage00} />
+        <Route path="/template-page-01" component={TemplatePage01} />
         <Route path="/template-page-02" component={TemplatePage02} />
         <Route path="/template-page-03" component={TemplatePage03} />
         <Route path="/wireframe" component={TemplatePageWithWireframe} />
