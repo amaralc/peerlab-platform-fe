@@ -4,7 +4,7 @@ import SideBarItem from '../../../../../components/SideBarItem';
 import SideBarLabCard from '../../../../../components/SideBarLabCard';
 import SideBarLabCard2 from '../../../../../components/SideBarLabCard2';
 
-import Lmp from './img/lmp.png';
+import Lmp from '../../img/lmp.png';
 
 export default function ContentLeft() {
   return (
