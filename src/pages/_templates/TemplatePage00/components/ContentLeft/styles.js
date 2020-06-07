@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  max-width: 15rem;
+  width: 15rem;
   margin-left: -15rem;
   -webkit-transition: margin 0.25s ease-out;
   -moz-transition: margin 0.25s ease-out;
@@ -35,5 +35,5 @@ export const List = styled.div`
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  width: 15rem;
+  width: 100%;
 `;
