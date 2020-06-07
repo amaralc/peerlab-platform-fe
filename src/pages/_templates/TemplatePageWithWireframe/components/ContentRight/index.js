@@ -14,6 +14,7 @@ export default function ContentLeft() {
             title="LMP"
             subtitle="Laboratório de Mecânica de Precisão"
             imgPath={Lmp}
+            route="/"
           />
         </List>
       </div>
@@ -26,6 +27,7 @@ export default function ContentLeft() {
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             imgPath={Lmp}
+            route="/"
           />
         </List>
       </div>

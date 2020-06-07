@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Title } from './styles';
+import { Container, Title, Body } from './styles';
 
 import CentralListOfCategories01 from '../../../../../components/CentralListOfCategories01';
 import CentralListOfCategories02 from '../../../../../components/CentralListOfCategories02';
@@ -13,197 +13,199 @@ export default function ContentCenter() {
   return (
     <Container>
       <Title>Todas as categorias</Title>
-      <CentralListOfCategories01 title="Grupo 01">
-        <CentralListOfCategories02 title="SubCategory 01">
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-        </CentralListOfCategories02>
-        <CentralListOfCategories02 title="SubCategory 02">
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-        </CentralListOfCategories02>
-        <CentralListOfCategories02 title="SubCategory 02">
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-        </CentralListOfCategories02>
-      </CentralListOfCategories01>
-      <CentralListOfCategories01 title="Grupo 02">
-        <CentralListOfCategories02 title="SubCategory 01">
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-        </CentralListOfCategories02>
-        <CentralListOfCategories02 title="SubCategory 02">
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-        </CentralListOfCategories02>
-        <CentralListOfCategories02 title="SubCategory 02">
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-          <CentralCard01
-            cardText="Item"
-            cardImgSrc={Microscope}
-            cardRoute="/"
-          />
-        </CentralListOfCategories02>
-      </CentralListOfCategories01>
-      <CentralListOfCategories01 title="Grupo 03">
-        <CentralCard02
-          imgPath={Ensaio}
-          title="Ensaio de tração"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+      <Body>
+        <CentralListOfCategories01 title="Grupo 01">
+          <CentralListOfCategories02 title="SubCategory 01">
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+          </CentralListOfCategories02>
+          <CentralListOfCategories02 title="SubCategory 02">
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+          </CentralListOfCategories02>
+          <CentralListOfCategories02 title="SubCategory 02">
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+          </CentralListOfCategories02>
+        </CentralListOfCategories01>
+        <CentralListOfCategories01 title="Grupo 02">
+          <CentralListOfCategories02 title="SubCategory 01">
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+          </CentralListOfCategories02>
+          <CentralListOfCategories02 title="SubCategory 02">
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+          </CentralListOfCategories02>
+          <CentralListOfCategories02 title="SubCategory 02">
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+            <CentralCard01
+              cardText="Item"
+              cardImgSrc={Microscope}
+              cardRoute="/"
+            />
+          </CentralListOfCategories02>
+        </CentralListOfCategories01>
+        <CentralListOfCategories01 title="Grupo 03">
+          <CentralCard02
+            imgPath={Ensaio}
+            title="Ensaio de tração"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
-          contact="(48)999999999"
-          url="/"
-          button="Solicite"
-        />
-        <CentralCard02
-          imgPath={Ensaio}
-          title="Ensaio de tração"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            contact="(48)999999999"
+            url="/"
+            button="Solicite"
+          />
+          <CentralCard02
+            imgPath={Ensaio}
+            title="Ensaio de tração"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
-          contact="(48)999999999"
-          url="/"
-          button="Solicite"
-        />
-      </CentralListOfCategories01>
-      <CentralListOfCategories01 title="Grupo 04">
-        <CentralCard02
-          imgPath={Ensaio}
-          title="Ensaio de tração"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            contact="(48)999999999"
+            url="/"
+            button="Solicite"
+          />
+        </CentralListOfCategories01>
+        <CentralListOfCategories01 title="Grupo 04">
+          <CentralCard02
+            imgPath={Ensaio}
+            title="Ensaio de tração"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
-          contact="(48)999999999"
-          url="/"
-          button="Solicite"
-        />
-        <CentralCard02
-          imgPath={Ensaio}
-          title="Ensaio de tração"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            contact="(48)999999999"
+            url="/"
+            button="Solicite"
+          />
+          <CentralCard02
+            imgPath={Ensaio}
+            title="Ensaio de tração"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
-          contact="(48)999999999"
-          url="/"
-          button="Solicite"
-        />
-      </CentralListOfCategories01>
+            contact="(48)999999999"
+            url="/"
+            button="Solicite"
+          />
+        </CentralListOfCategories01>
+      </Body>
     </Container>
   );
 }
