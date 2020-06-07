@@ -4,18 +4,34 @@ import { Link } from 'react-router-dom';
 export const Container = styled.nav`
   display: flex;
   flex: 0 0 auto;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-
   padding: 0.5rem;
-
   border: solid;
   border-color: #f33;
   background-color: #343a40 !important;
 
+  @media (min-width: 992px) {
+    flex-direction: row;
+  }
+
   @media (max-width: 300px) {
     min-width: 270px;
+  }
+`;
+
+export const LeftContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  min-width: 15rem;
+  border: solid;
+  border-color: blue;
+  align-items: center;
+
+  @media (max-width: 992px) {
+    width: 100%;
   }
 `;
 
@@ -24,7 +40,6 @@ export const Brand = styled(Link)`
   color: #fff;
   border: solid;
   border-color: yellow;
-  margin-right: 150px;
   flex-grow: 0;
 
   &:focus,
@@ -32,18 +47,6 @@ export const Brand = styled(Link)`
     text-decoration: none;
     color: #fff;
   }
-`;
-
-export const Menu = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  flex-grow: 1;
-
-  border: solid;
-  border-color: #fff;
-  background-color: transparent !important;
 `;
 
 export const Button = styled.button`
@@ -67,5 +70,43 @@ export const Button = styled.button`
 
   @media (min-width: 992px) {
     display: none;
+  }
+`;
+
+export const Menu = styled.div`
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: space-between;
+  flex-grow: 1;
+  width: 100%;
+
+  border: solid;
+  border-color: #fff;
+  background-color: transparent !important;
+
+  @media (min-width: 992px) {
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+  }
+
+  @media (max-width: 992px) {
+    opacity: ${(props) => (props.open ? '1' : '0')};
+    max-height: ${(props) => (props.open ? '100%' : '0')};
+    overflow: hidden;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: space-between;
+
+    @media (min-width: 992px) {
+      flex-direction: row;
+    }
   }
 `;
