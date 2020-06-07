@@ -11,13 +11,16 @@ export const Container = styled.div`
   background-clip: border-box;
 
   width: 100%;
-  padding-left: 0.25rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 
   img {
     border-radius: 0.5rem;
     height: 180px;
-    border: 2px solid #eee;
   }
 `;
 
@@ -29,9 +32,6 @@ export const Body = styled.div`
   margin-left: 15px;
   max-height: 180px;
   align-items: flex-start;
-
-  border: solid;
-  border-color: red;
 
   div {
     overflow-y: auto;

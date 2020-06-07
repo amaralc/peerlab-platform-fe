@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   padding-left: 0.5rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #ffd90033;
+  border-bottom: 2px solid #ddff0066;
 
   &:last-child {
     margin-bottom: 3rem;

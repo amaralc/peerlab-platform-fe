@@ -40,7 +40,7 @@ export const ActionContainer = styled.div`
 
 export const Brand = styled(Link)`
   font-size: 1.25rem;
-  color: #fff;
+  color: #df0;
   border: solid;
   border-color: transparent;
   flex-grow: 0;
