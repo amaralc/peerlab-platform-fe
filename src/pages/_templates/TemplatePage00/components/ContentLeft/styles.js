@@ -37,11 +37,3 @@ export const List = styled.div`
   margin-bottom: 0;
   width: 15rem;
 `;
-
-export const Gap = styled.div`
-  padding: 0.5rem 1.25rem;
-  height: 2rem;
-  color: #495057;
-  font-size: 1rem;
-  font-weight: 500;
-`;
