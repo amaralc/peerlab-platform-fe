@@ -6,4 +6,6 @@ export const Container = styled.div`
   border: solid;
   border-color: #0f0;
   flex: 1 1 auto;
+  padding-top: 60px;
+  height: calc(100vh - 60px);
 `;
