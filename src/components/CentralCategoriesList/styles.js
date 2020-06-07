@@ -5,6 +5,7 @@ export const Row = styled.div`
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding-left: 0.25rem;
   padding-bottom: 1rem;
   border-bottom: 2px solid #ffd90033;
 
@@ -22,5 +23,6 @@ export const Title = styled.h1`
   font-size: 20px;
   color: #495057;
   padding-top: 0.5rem;
+  padding-left: 0.25rem;
   padding-bottom: 0.25rem;
 `;
