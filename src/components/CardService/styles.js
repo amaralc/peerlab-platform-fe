@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  position: relative;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -12,7 +11,6 @@ export const Container = styled.div`
   background-clip: border-box;
 
   width: 100%;
-
   padding-left: 0.25rem;
   padding-bottom: 1rem;
 
@@ -24,10 +22,21 @@ export const Container = styled.div`
 `;
 
 export const Body = styled.div`
-  -ms-flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex: 1 1 auto;
   margin-left: 15px;
   max-height: 180px;
+  align-items: flex-start;
+
+  border: solid;
+  border-color: red;
+
+  div {
+    overflow-y: auto;
+    max-height: 70%;
+  }
 
   h5 {
     font-size: 16px;
@@ -36,28 +45,22 @@ export const Body = styled.div`
   }
 
   p {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     width: 100%;
     word-break: normal;
     margin-top: 5px;
-    max-height: 80px;
-    overflow-y: auto;
   }
 
   a {
-    display: inline-block;
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
+    width: 30%;
+    min-width: 100px;
+
     padding: 0.375rem 0.25rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 0.25rem;
+    border-radius: 0.125rem;
 
     color: #fff;
     background-color: #c0c0c0;

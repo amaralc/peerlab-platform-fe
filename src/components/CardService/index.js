@@ -6,11 +6,13 @@ export default function CentralServiceList(props) {
     <Container>
       <img src={props.imgPath} alt="" />
       <Body>
-        <h5>{props.title}</h5>
-        <p>{props.text}</p>
-        <p>{props.contact}</p>
+        <div>
+          <h5>{props.title}</h5>
+          <p>{props.text}</p>
+        </div>
+
         <a href={props.url} target="_blank" rel="noopener noreferrer">
-          {props.button}
+          {props.button} &raquo;
         </a>
       </Body>
     </Container>

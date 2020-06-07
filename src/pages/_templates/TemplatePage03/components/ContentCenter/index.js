@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Title } from './styles';
 
 import CentralCategoriesList from '../../../../../components/CentralCategoriesList';
-import CentralServiceList from '../../../../../components/CentralServiceList';
+import CardService from '../../../../../components/CardService';
 
 import Ensaio from '../../img/Ensaio.jpg';
 
@@ -11,7 +11,7 @@ export default function ContentCenter() {
     <Container>
       <Title>Todas as categorias</Title>
       <CentralCategoriesList title="Grupo 01">
-        <CentralServiceList
+        <CardService
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -20,7 +20,7 @@ export default function ContentCenter() {
           url="/"
           button="Solicite"
         />
-        <CentralServiceList
+        <CardService
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -31,7 +31,7 @@ export default function ContentCenter() {
         />
       </CentralCategoriesList>
       <CentralCategoriesList title="Grupo 02">
-        <CentralServiceList
+        <CardService
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -40,7 +40,7 @@ export default function ContentCenter() {
           url="/"
           button="Solicite"
         />
-        <CentralServiceList
+        <CardService
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -51,7 +51,7 @@ export default function ContentCenter() {
         />
       </CentralCategoriesList>
       <CentralCategoriesList title="Grupo 03">
-        <CentralServiceList
+        <CardService
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -60,7 +60,7 @@ export default function ContentCenter() {
           url="/"
           button="Solicite"
         />
-        <CentralServiceList
+        <CardService
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
