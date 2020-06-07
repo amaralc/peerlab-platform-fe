@@ -8,4 +8,5 @@ export const Container = styled.div`
   flex: 1 1 auto;
   padding-top: 60px;
   height: calc(100vh - 60px);
+  overflow-x: hidden;
 `;
