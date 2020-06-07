@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListGroup, SideBarHeading, SideBarGap } from './styles';
+import { ListGroup, SideBarHeading } from './styles';
 
 export default function SideCategoryList(props) {
   return (
