@@ -18,7 +18,7 @@ export default function ContentCenter() {
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             contact="(48)999999999"
-            url="/"
+            url="/template-page-01"
             button="Solicite"
           />
           <CentralCard02
@@ -27,7 +27,7 @@ export default function ContentCenter() {
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             contact="(48)999999999"
-            url="/"
+            url="/template-page-01"
             button="Solicite"
           />
         </CentralListOfCategories01>
@@ -38,7 +38,7 @@ export default function ContentCenter() {
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             contact="(48)999999999"
-            url="/"
+            url="/template-page-01"
             button="Solicite"
           />
           <CentralCard02
@@ -47,7 +47,7 @@ export default function ContentCenter() {
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             contact="(48)999999999"
-            url="/"
+            url="/template-page-01"
             button="Solicite"
           />
         </CentralListOfCategories01>
@@ -58,7 +58,7 @@ export default function ContentCenter() {
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             contact="(48)999999999"
-            url="/"
+            url="/template-page-01"
             button="Solicite"
           />
           <CentralCard02
@@ -67,7 +67,7 @@ export default function ContentCenter() {
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             contact="(48)999999999"
-            url="/"
+            url="/template-page-01"
             button="Solicite"
           />
         </CentralListOfCategories01>

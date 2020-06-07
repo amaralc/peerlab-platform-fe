@@ -13,13 +13,13 @@ export default function ContentLeft() {
           title="LMP"
           subtitle="Laboratório de Mecânica de Precisão"
           imgPath={Lmp}
-          route="/"
+          route="/template-page-01"
         />
         <SideBarCard01
           title="LMP"
           subtitle="Laboratório de Mecânica de Precisão"
           imgPath={Lmp}
-          route="/"
+          route="/template-page-01"
         />
       </SideBarList>
     </Container>
