@@ -22,7 +22,7 @@ export const Container = styled.nav`
   }
 `;
 
-export const LeftContainer = styled.div`
+export const ActionContainer = styled.div`
   display: flex;
   justify-content: space-between;
   min-width: 15rem;
@@ -41,6 +41,7 @@ export const Brand = styled(Link)`
   border: solid;
   border-color: yellow;
   flex-grow: 0;
+  padding: 0.125rem 0;
 
   &:focus,
   :hover {
@@ -49,8 +50,8 @@ export const Brand = styled(Link)`
   }
 `;
 
-export const Button = styled.button`
-  padding: 0.25rem 0.75rem;
+export const MenuToggleButton = styled.button`
+  padding: 1.125rem 1.5rem;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
@@ -73,7 +74,7 @@ export const Button = styled.button`
   }
 `;
 
-export const Menu = styled.div`
+export const MenuContainer = styled.div`
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -94,7 +95,10 @@ export const Menu = styled.div`
   @media (max-width: 992px) {
     opacity: ${(props) => (props.open ? '1' : '0')};
     max-height: ${(props) => (props.open ? '100%' : '0')};
+    border: ${(props) => (props.open ? 'solid' : 'none')};
+    border-color: #fff;
     overflow: hidden;
+    padding-top: ${(props) => (props.open ? '0.5rem' : '0')};
   }
 
   ul {

@@ -1,7 +1,13 @@
 import React from 'react';
 import NavItem from './NavItem';
 import Find from './Find';
-import { Container, LeftContainer, Brand, Button, Menu } from './styles';
+import {
+  Container,
+  ActionContainer,
+  Brand,
+  MenuToggleButton,
+  MenuContainer,
+} from './styles';
 
 export default class FlexNavbar extends React.Component {
   constructor() {
@@ -17,18 +23,18 @@ export default class FlexNavbar extends React.Component {
   render() {
     return (
       <Container>
-        <LeftContainer>
+        <ActionContainer>
           <Brand to="/">peerLab</Brand>
-          <Button onClick={this.toggleOpen} />
-        </LeftContainer>
-        <Menu open={this.state.open}>
+          <MenuToggleButton onClick={this.toggleOpen} />
+        </ActionContainer>
+        <MenuContainer open={this.state.open}>
           <Find />
           <ul>
             <NavItem item="Login" />
             <NavItem item="Login" />
             <NavItem item="Login" />
           </ul>
-        </Menu>
+        </MenuContainer>
       </Container>
     );
   }

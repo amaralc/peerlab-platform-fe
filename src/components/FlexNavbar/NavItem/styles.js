@@ -5,6 +5,7 @@ export const NavLink = styled(Link)`
   display: block;
   padding: 0.5rem 0.5rem;
   color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
 
   &:focus,
   :hover {
