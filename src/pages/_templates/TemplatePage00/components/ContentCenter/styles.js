@@ -16,7 +16,7 @@ export const Container = styled.main`
 `;
 
 export const Title = styled.div`
-  padding: 0.5rem 0.25rem;
+  padding: 0.5rem 0.5rem;
   color: #495057;
   font-size: 1rem;
   font-weight: 500;

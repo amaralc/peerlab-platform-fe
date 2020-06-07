@@ -27,6 +27,10 @@ export const Container = styled(Link)`
     background-color: #e9ecef;
     background-color: #dae0e5 !important;
   }
+
+  &:last-child {
+    margin-bottom: 2rem;
+  }
 `;
 
 export const InfoContainer = styled.div`
