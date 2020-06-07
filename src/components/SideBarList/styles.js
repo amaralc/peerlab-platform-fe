@@ -15,5 +15,5 @@ export const Title = styled.div`
   color: #495057;
   font-size: 1rem;
   font-weight: 500;
-  border-bottom: 2px solid #ffd900;
+  border-bottom: 2px solid #ddff00;
 `;
