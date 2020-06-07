@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const Container = styled(Link)`
   position: relative;
   display: block;
-  padding: 0.25rem 1.25rem;
+  padding: 0.25rem 0.5rem;
   background-color: #f8f9fa !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   font-size: 1rem;
@@ -25,5 +25,9 @@ export const Container = styled(Link)`
     color: #212529;
     background-color: #e9ecef;
     background-color: #dae0e5 !important;
+  }
+
+  &:last-child {
+    margin-bottom: 2rem;
   }
 `;
