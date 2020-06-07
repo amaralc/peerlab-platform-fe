@@ -2,6 +2,12 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.nav`
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
