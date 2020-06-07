@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   margin-left: 0;
   border: solid;
   border-color: #f00;
-
+  flex: 1 1 auto;
   position: relative;
 
   @media (min-width: 768px) {

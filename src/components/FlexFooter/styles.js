@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
+  flex: 0 0 60px;
   width: 100%;
-  padding: 0rem 2rem;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  padding: 1rem !important;
   background-color: #343a40 !important;
+
+  border: solid;
+  border-color: magenta;
 
   @media (max-width: 300px) {
     min-width: 270px;

@@ -2,18 +2,13 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.nav`
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
+  flex: 0 0 auto;
   flex-wrap: wrap;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: justify;
   justify-content: space-between;
+
+  padding: 0.5rem;
 
   border: solid;
   border-color: #f33;
@@ -25,21 +20,30 @@ export const Container = styled.nav`
 `;
 
 export const Brand = styled(Link)`
-  display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 150px;
   font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
-
   color: #fff;
+  border: solid;
+  border-color: yellow;
+  margin-right: 150px;
+  flex-grow: 0;
 
   &:focus,
   :hover {
     text-decoration: none;
     color: #fff;
   }
+`;
+
+export const Menu = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+
+  border: solid;
+  border-color: #fff;
+  background-color: transparent !important;
 `;
 
 export const Button = styled.button`
@@ -63,10 +67,5 @@ export const Button = styled.button`
 
   @media (min-width: 992px) {
     display: none;
-  }
-`;
-
-export const Menu = styled.div`
-  ul {
   }
 `;

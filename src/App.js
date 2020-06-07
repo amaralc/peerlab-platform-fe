@@ -9,7 +9,7 @@ export default function App(props) {
   return (
     <AppWrapper>
       <FlexNavbar />
-      <main>{props.children}</main>
+      {props.children}
       <FlexFooter />
     </AppWrapper>
   );

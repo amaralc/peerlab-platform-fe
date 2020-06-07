@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 15rem;
+  max-width: 15rem;
   margin-left: -15rem;
   -webkit-transition: margin 0.25s ease-out;
   -moz-transition: margin 0.25s ease-out;
@@ -12,7 +12,6 @@ export const Container = styled.div`
 
   position: relative;
 
-  z-index: 0;
   border: solid;
   border-color: #00f;
 
