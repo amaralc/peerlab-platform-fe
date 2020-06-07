@@ -2,11 +2,11 @@ import React from 'react';
 
 import { Container, SideBarItem } from './styles';
 
-function SideBarLabCard(props) {
+export default function SideBarCard02(props) {
   return (
     <>
-      <Container to="/">
-        <SideBarItem to="/">
+      <Container to={props.route}>
+        <SideBarItem>
           <img src={props.imgPath} alt="" />
           <h5>
             {props.title}
@@ -18,5 +18,3 @@ function SideBarLabCard(props) {
     </>
   );
 }
-
-export default SideBarLabCard;

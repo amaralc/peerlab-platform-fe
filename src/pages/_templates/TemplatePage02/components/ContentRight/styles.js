@@ -11,7 +11,7 @@ export const Container = styled.div`
   flex: 0 0 15rem;
 
   max-height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   @media (min-width: 1280px) {
     margin-right: 0;

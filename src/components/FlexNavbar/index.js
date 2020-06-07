@@ -30,9 +30,9 @@ export default class FlexNavbar extends React.Component {
         <MenuContainer open={this.state.open}>
           <Find />
           <ul>
-            <NavItem item="Contato" />
-            <NavItem item="Pedidos" />
-            <NavItem item="Login" />
+            <NavItem item="Contato" route="/" />
+            <NavItem item="Pedidos" route="/" />
+            <NavItem item="Login" route="/" />
           </ul>
         </MenuContainer>
       </Container>

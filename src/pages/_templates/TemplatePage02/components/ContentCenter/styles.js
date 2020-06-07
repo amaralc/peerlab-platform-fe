@@ -6,10 +6,11 @@ export const Container = styled.main`
   margin-left: 0;
   flex: 1 1 auto;
   position: relative;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   @media (min-width: 768px) {
     margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 `;
 

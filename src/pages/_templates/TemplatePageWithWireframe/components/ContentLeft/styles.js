@@ -14,7 +14,7 @@ export const Container = styled.div`
   border-color: #00f;
 
   max-height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   @media (min-width: 768px) {
     margin-left: 0;

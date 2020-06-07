@@ -18,8 +18,7 @@ export const Container = styled.div`
 
   img {
     border-radius: 0.5rem;
-    width: 150px;
-    height: 200px;
+    height: 180px;
     border: 2px solid #eee;
   }
 `;
@@ -28,6 +27,7 @@ export const Body = styled.div`
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   margin-left: 15px;
+  max-height: 180px;
 
   h5 {
     font-size: 16px;
@@ -36,10 +36,12 @@ export const Body = styled.div`
   }
 
   p {
-    font-size: 14px;
+    font-size: 0.75rem;
     width: 100%;
     word-break: normal;
     margin-top: 5px;
+    max-height: 80px;
+    overflow-y: auto;
   }
 
   a {
