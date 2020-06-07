@@ -8,6 +8,7 @@ export const Container = styled.main`
   border-color: #f00;
   flex: 1 1 auto;
   position: relative;
+  overflow-y: scroll;
 
   @media (min-width: 768px) {
     margin-left: 0.5rem;
