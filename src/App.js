@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import FlexNavbar from './components/FlexNavbar';
+import FlexFooter from './components/FlexFooter';
 
 export default function App(props) {
   return (
     <>
-      <Navbar navbarBrand="Start Bootstrap" />
-      <main>{props.children}</main>
-      <Footer />
+      <FlexNavbar />
+      {props.children}
+      <FlexFooter />
     </>
   );
 }
