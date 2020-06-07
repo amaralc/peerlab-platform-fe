@@ -1,10 +1,5 @@
 import styled from 'styled-components';
 
-export const Row = styled.div`
-  padding-top: 30px;
-  list-style: none;
-`;
-
 export const Container = styled.div`
   position: relative;
   display: -ms-flexbox;
@@ -15,28 +10,26 @@ export const Container = styled.div`
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  height: 100% !important;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  padding: 0px 5px;
+
   width: 100%;
+
+  padding-left: 0.25rem;
+  padding-bottom: 1rem;
 
   img {
     border-radius: 0.5rem;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     width: 150px;
     height: 200px;
     border: 2px solid #eee;
   }
 `;
+
 export const Body = styled.div`
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-
   margin-left: 15px;
 
   h5 {
-    padding-top: 1rem;
     font-size: 16px;
     height: 48;
     color: #333333;
@@ -59,7 +52,7 @@ export const Body = styled.div`
     -ms-user-select: none;
     user-select: none;
     border: 1px solid transparent;
-    padding: 0.375rem 0.75rem;
+    padding: 0.375rem 0.25rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.25rem;
@@ -75,8 +68,6 @@ export const Body = styled.div`
     border-color: #808080;
     text-decoration: none;
   }
-
-}
 `;
 
 export const Gap = styled.div`
