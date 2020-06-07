@@ -24,11 +24,12 @@ export const CardImg = styled.img`
   width: 62px;
   height: 62px;
   border-radius: calc(0.25rem - 1px);
-  border: 1px solid #eee;
+  border: 1px solid #eeeeeebb;
+
   filter: grayscale(1);
 
   &:hover {
-    filter: grayscale(1) sepia(0.5);
+    filter: grayscale(1) sepia(0.75) hue-rotate(25deg);
   }
 `;
 
