@@ -5,10 +5,7 @@ export default function SideCategoryList(props) {
   return (
     <>
       <SideBarHeading>{props.title}</SideBarHeading>
-      <ListGroup className=" list-group-flush">
-        <main>{props.children}</main>
-      </ListGroup>
-      <SideBarGap />
+      <ListGroup>{props.children}</ListGroup>
     </>
   );
 }
