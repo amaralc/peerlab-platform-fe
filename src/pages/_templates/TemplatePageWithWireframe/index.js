@@ -6,14 +6,19 @@ import ContentLeft from './components/ContentLeft';
 import ContentRight from './components/ContentRight';
 import ContentCenter from './components/ContentCenter';
 
-function TemplatePage00() {
+import FlexNavbar from './components/FlexNavbar';
+import FlexFooter from './components/FlexFooter';
+
+export default function TemplatePageWithWireframe() {
   return (
-    <ContentWrapper>
-      <ContentLeft />
-      <ContentCenter />
-      <ContentRight />
-    </ContentWrapper>
+    <>
+      <FlexNavbar />
+      <ContentWrapper>
+        <ContentLeft />
+        <ContentCenter />
+        <ContentRight />
+      </ContentWrapper>
+      <FlexFooter />
+    </>
   );
 }
-
-export default TemplatePage00;

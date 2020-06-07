@@ -5,7 +5,7 @@ export const Container = styled(Link)`
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 0.25rem 0.75rem;
+  padding: 0.25rem 0.5rem;
   background-color: #f8f9fa !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   font-size: 1rem;
@@ -39,7 +39,7 @@ export const SideBarItem = styled.div`
   flex-direction: column;
 
   img {
-    padding-top: 1rem;
+    margin-top: 1rem;
     width: 100%;
     text-align: center;
     border-radius: 6px;
@@ -53,10 +53,13 @@ export const SideBarItem = styled.div`
     height: 48;
     line-height: 16px;
     color: #333333;
+
     p:last-child {
       font-size: 14px;
       width: 100%;
       word-break: normal;
+      padding-bottom: 0;
+      margin-bottom: 0;
     }
   }
 

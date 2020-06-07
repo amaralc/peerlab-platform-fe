@@ -6,7 +6,7 @@ import ContentLeft from './components/ContentLeft';
 import ContentRight from './components/ContentRight';
 import ContentCenter from './components/ContentCenter';
 
-function TemplatePage00() {
+export default function TemplatePage00() {
   return (
     <ContentWrapper>
       <ContentLeft />
@@ -15,5 +15,3 @@ function TemplatePage00() {
     </ContentWrapper>
   );
 }
-
-export default TemplatePage00;

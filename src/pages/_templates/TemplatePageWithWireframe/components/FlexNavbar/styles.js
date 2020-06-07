@@ -15,6 +15,8 @@ export const Container = styled.nav`
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
+  border: solid;
+  border-color: #f33;
   background-color: #343a40 !important;
 
   @media (min-width: 992px) {
@@ -30,7 +32,8 @@ export const ActionContainer = styled.div`
   display: flex;
   justify-content: space-between;
   min-width: 15rem;
-
+  border: solid;
+  border-color: blue;
   align-items: center;
 
   @media (max-width: 992px) {
@@ -42,7 +45,7 @@ export const Brand = styled(Link)`
   font-size: 1.25rem;
   color: #fff;
   border: solid;
-  border-color: transparent;
+  border-color: yellow;
   flex-grow: 0;
   padding: 0.125rem 0;
 
@@ -85,6 +88,8 @@ export const MenuContainer = styled.div`
   flex-grow: 1;
   width: 100%;
 
+  border: solid;
+  border-color: #fff;
   background-color: transparent !important;
 
   @media (min-width: 992px) {
@@ -97,7 +102,7 @@ export const MenuContainer = styled.div`
     opacity: ${(props) => (props.open ? '1' : '0')};
     max-height: ${(props) => (props.open ? '100%' : '0')};
     border: ${(props) => (props.open ? 'solid' : 'none')};
-    border-color: transparent;
+    border-color: #fff;
     overflow: hidden;
     padding-top: ${(props) => (props.open ? '0.5rem' : '0')};
   }

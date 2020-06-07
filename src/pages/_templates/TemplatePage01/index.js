@@ -1,13 +1,15 @@
 import React from 'react';
 
-import SideBarLeftLocal from './components/SideBarLeftLocal';
-import CentralContent from './components/CentralContentLocal';
+// import { Container } from './styles';
+import ContentWrapper from './components/ContentWrapper';
+import ContentLeft from './components/ContentLeft';
+import ContentCenter from './components/ContentCenter';
 
-export default function Home() {
+export default function TemplatePage01() {
   return (
-    <>
-      <SideBarLeftLocal />
-      <CentralContent title="Faça o pedido" />
-    </>
+    <ContentWrapper>
+      <ContentLeft />
+      <ContentCenter />
+    </ContentWrapper>
   );
 }
