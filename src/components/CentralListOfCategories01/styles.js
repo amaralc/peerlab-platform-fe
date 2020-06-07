@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Row = styled.div`
+export const Container = styled.div`
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;

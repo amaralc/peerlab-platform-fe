@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1rem;
@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
 `;
 
-export const Container = styled.div`
+export const SubContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
 `;

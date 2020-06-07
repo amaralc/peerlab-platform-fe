@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Title } from './styles';
 
-import CentralCategoriesList from '../../../../../components/CentralCategoriesList';
-import CardService from '../../../../../components/CardService';
+import CentralListOfCategories01 from '../../../../../components/CentralListOfCategories01';
+import CentralCard02 from '../../../../../components/CentralCard02';
 
 import Ensaio from '../../img/Ensaio.jpg';
 
@@ -10,8 +10,8 @@ export default function ContentCenter() {
   return (
     <Container>
       <Title>Todas as categorias</Title>
-      <CentralCategoriesList title="Grupo 01">
-        <CardService
+      <CentralListOfCategories01 title="Grupo 01">
+        <CentralCard02
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -20,7 +20,7 @@ export default function ContentCenter() {
           url="/"
           button="Solicite"
         />
-        <CardService
+        <CentralCard02
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -29,9 +29,9 @@ export default function ContentCenter() {
           url="/"
           button="Solicite"
         />
-      </CentralCategoriesList>
-      <CentralCategoriesList title="Grupo 02">
-        <CardService
+      </CentralListOfCategories01>
+      <CentralListOfCategories01 title="Grupo 02">
+        <CentralCard02
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -40,7 +40,7 @@ export default function ContentCenter() {
           url="/"
           button="Solicite"
         />
-        <CardService
+        <CentralCard02
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -49,9 +49,9 @@ export default function ContentCenter() {
           url="/"
           button="Solicite"
         />
-      </CentralCategoriesList>
-      <CentralCategoriesList title="Grupo 03">
-        <CardService
+      </CentralListOfCategories01>
+      <CentralListOfCategories01 title="Grupo 03">
+        <CentralCard02
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -60,7 +60,7 @@ export default function ContentCenter() {
           url="/"
           button="Solicite"
         />
-        <CardService
+        <CentralCard02
           imgPath={Ensaio}
           title="Ensaio de tração"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -69,7 +69,7 @@ export default function ContentCenter() {
           url="/"
           button="Solicite"
         />
-      </CentralCategoriesList>
+      </CentralListOfCategories01>
     </Container>
   );
 }

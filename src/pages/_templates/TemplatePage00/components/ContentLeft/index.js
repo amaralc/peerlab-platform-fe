@@ -1,26 +1,22 @@
 import React from 'react';
-import { Container, Title, List } from './styles';
+import { Container } from './styles';
+
+import SideBarList from '../../../../../components/SideBarList';
 import SideBarItem from '../../../../../components/SideBarItem';
 
 export default function ContentLeft() {
   return (
     <Container>
-      <div>
-        <Title>Template Title 01</Title>
-        <List>
-          <SideBarItem itemName="Template Item 01" route="/" />
-          <SideBarItem itemName="Template Item 02" route="/" />
-          <SideBarItem itemName="Template Item 03" route="/" />
-        </List>
-      </div>
-      <div>
-        <Title>Template Title 02</Title>
-        <List>
-          <SideBarItem itemName="Template Item 01" route="/" />
-          <SideBarItem itemName="Template Item 02" route="/" />
-          <SideBarItem itemName="Template Item 03" route="/" />
-        </List>
-      </div>
+      <SideBarList title="Template Title 01">
+        <SideBarItem itemName="Template Item 01" route="/" />
+        <SideBarItem itemName="Template Item 02" route="/" />
+        <SideBarItem itemName="Template Item 03" route="/" />
+      </SideBarList>
+      <SideBarList title="Template Title 02">
+        <SideBarItem itemName="Template Item 01" route="/" />
+        <SideBarItem itemName="Template Item 02" route="/" />
+        <SideBarItem itemName="Template Item 03" route="/" />
+      </SideBarList>
     </Container>
   );
 }

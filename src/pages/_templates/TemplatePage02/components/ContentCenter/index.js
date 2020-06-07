@@ -1,166 +1,166 @@
 import React from 'react';
 import { Container, Title } from './styles';
 
-import CentralCategoriesList from '../../../../../components/CentralCategoriesList';
-import CentralSubCategoriesList from '../../../../../components/CentralSubCategoriesList';
-import IconCard from '../../../../../components/IconCard';
+import CentralListOfCategories01 from '../../../../../components/CentralListOfCategories01';
+import CentralListOfCategories02 from '../../../../../components/CentralListOfCategories02';
+import CentralCard01 from '../../../../../components/CentralCard01';
 import Microscope from '../../img/microscope.png';
 
 export default function ContentCenter() {
   return (
     <Container>
       <Title>Todas as categorias</Title>
-      <CentralCategoriesList title="Grupo 01">
-        <CentralSubCategoriesList title="SubCategory 01">
-          <IconCard
+      <CentralListOfCategories01 title="Grupo 01">
+        <CentralListOfCategories02 title="SubCategory 01">
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-        </CentralSubCategoriesList>
-        <CentralSubCategoriesList title="SubCategory 02">
-          <IconCard
+        </CentralListOfCategories02>
+        <CentralListOfCategories02 title="SubCategory 02">
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-        </CentralSubCategoriesList>
-        <CentralSubCategoriesList title="SubCategory 02">
-          <IconCard
+        </CentralListOfCategories02>
+        <CentralListOfCategories02 title="SubCategory 02">
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-        </CentralSubCategoriesList>
-      </CentralCategoriesList>
-      <CentralCategoriesList title="Grupo 02">
-        <CentralSubCategoriesList title="SubCategory 01">
-          <IconCard
+        </CentralListOfCategories02>
+      </CentralListOfCategories01>
+      <CentralListOfCategories01 title="Grupo 02">
+        <CentralListOfCategories02 title="SubCategory 01">
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-        </CentralSubCategoriesList>
-        <CentralSubCategoriesList title="SubCategory 02">
-          <IconCard
+        </CentralListOfCategories02>
+        <CentralListOfCategories02 title="SubCategory 02">
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-        </CentralSubCategoriesList>
-        <CentralSubCategoriesList title="SubCategory 02">
-          <IconCard
+        </CentralListOfCategories02>
+        <CentralListOfCategories02 title="SubCategory 02">
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-          <IconCard
+          <CentralCard01
             cardText="Item"
             cardImgSrc={Microscope}
             cardRoute="/template-page-03"
           />
-        </CentralSubCategoriesList>
-      </CentralCategoriesList>
+        </CentralListOfCategories02>
+      </CentralListOfCategories01>
     </Container>
   );
 }

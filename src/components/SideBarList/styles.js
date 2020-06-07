@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
-export const ListGroup = styled.div`
+export const List = styled.div`
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  width: 15rem;
+  width: 100%;
 `;
 
-export const SideBarHeading = styled.div`
-  padding: 0.5rem 1.25rem;
+export const Title = styled.div`
+  padding: 0.5rem 0.5rem;
   color: #495057;
   font-size: 1rem;
   font-weight: 500;

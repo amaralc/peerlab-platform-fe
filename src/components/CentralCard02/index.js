@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Body } from './styles';
 
-export default function CentralServiceList(props) {
+export default function CentralCard02(props) {
   return (
     <Container>
       <img src={props.imgPath} alt="" />

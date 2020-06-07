@@ -5,9 +5,6 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import Home from './pages/Home';
-import SubCategories from './pages/Page01';
-import SubmitOrder from './pages/Page02';
 import TemplatePageWithWireframe from './pages/_templates/TemplatePageWithWireframe';
 import TemplatePage00 from './pages/_templates/TemplatePage00';
 import TemplatePage01 from './pages/_templates/TemplatePage01';

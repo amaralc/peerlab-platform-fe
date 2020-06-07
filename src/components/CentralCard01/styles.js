@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const Card = styled(Link)`
+export const Container = styled(Link)`
   position: relative;
   display: -ms-flexbox;
   display: flex;

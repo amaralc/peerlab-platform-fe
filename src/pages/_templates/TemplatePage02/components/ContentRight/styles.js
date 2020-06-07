@@ -17,21 +17,3 @@ export const Container = styled.div`
     margin-right: 0;
   }
 `;
-
-export const Title = styled.div`
-  padding: 0.5rem 0.5rem;
-  color: #495057;
-  font-size: 1rem;
-  font-weight: 500;
-  border-bottom: 2px solid #ffd900;
-`;
-
-export const List = styled.div`
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding-left: 0;
-  margin-bottom: 0;
-  width: 100%;
-`;
