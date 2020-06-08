@@ -17,192 +17,219 @@ export default function ContentCenter() {
         <CentralListOfCategories01 title="Grupo 01">
           <CentralListOfCategories02 title="SubCategory 01">
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
-            />
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
-            />
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
           </CentralListOfCategories02>
           <CentralListOfCategories02 title="SubCategory 02">
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
+            />
+          </CentralListOfCategories02>
+          <CentralListOfCategories02 title="SubCategory 02">
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
           </CentralListOfCategories02>
         </CentralListOfCategories01>
         <CentralListOfCategories01 title="Grupo 02">
           <CentralListOfCategories02 title="SubCategory 01">
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
-            />
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
-            />
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
           </CentralListOfCategories02>
           <CentralListOfCategories02 title="SubCategory 02">
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
+            />
+          </CentralListOfCategories02>
+          <CentralListOfCategories02 title="SubCategory 02">
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/"
             />
           </CentralListOfCategories02>
         </CentralListOfCategories01>
         <CentralListOfCategories01 title="Grupo 03">
           <CentralCard02
-            imgPath={Ensaio}
+            imgSrc={Ensaio}
             title="Ensaio de tração"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             contact="(48)999999999"
-            url="/"
-            button="Solicite"
+            route="/"
+            buttonText="Solicite"
           />
           <CentralCard02
-            imgPath={Ensaio}
+            imgSrc={Ensaio}
             title="Ensaio de tração"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             contact="(48)999999999"
-            url="/"
-            button="Solicite"
+            route="/"
+            buttonText="Solicite"
           />
         </CentralListOfCategories01>
         <CentralListOfCategories01 title="Grupo 04">
           <CentralCard02
-            imgPath={Ensaio}
+            imgSrc={Ensaio}
             title="Ensaio de tração"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             contact="(48)999999999"
-            url="/"
-            button="Solicite"
+            route="/"
+            buttonText="Solicite"
           />
           <CentralCard02
-            imgPath={Ensaio}
+            imgSrc={Ensaio}
             title="Ensaio de tração"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
         egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
             contact="(48)999999999"
-            url="/"
-            button="Solicite"
+            route="/"
+            buttonText="Solicite"
           />
         </CentralListOfCategories01>
       </Body>

@@ -14,151 +14,178 @@ export default function ContentCenter() {
         <CentralListOfCategories01 title="Grupo 01">
           <CentralListOfCategories02 title="SubCategory 01">
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
-            />
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
-            />
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
           </CentralListOfCategories02>
           <CentralListOfCategories02 title="SubCategory 02">
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
+            />
+          </CentralListOfCategories02>
+          <CentralListOfCategories02 title="SubCategory 02">
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
+            />
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
+            />
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
           </CentralListOfCategories02>
         </CentralListOfCategories01>
         <CentralListOfCategories01 title="Grupo 02">
           <CentralListOfCategories02 title="SubCategory 01">
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
-            />
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
-            />
-            <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
           </CentralListOfCategories02>
           <CentralListOfCategories02 title="SubCategory 02">
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
+            />
+          </CentralListOfCategories02>
+          <CentralListOfCategories02 title="SubCategory 02">
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
             <CentralCard01
-              cardText="Item"
-              cardImgSrc={Microscope}
-              cardRoute="/template-page-03"
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
+            />
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
+            />
+            <CentralCard01
+              title="Item"
+              imgSrc={Microscope}
+              imgAlt="Microscope"
+              route="/template-page-03"
             />
           </CentralListOfCategories02>
         </CentralListOfCategories01>
