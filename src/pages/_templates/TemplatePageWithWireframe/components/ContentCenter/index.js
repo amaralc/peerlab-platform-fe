@@ -6,7 +6,7 @@ import CentralListOfCategories02 from '../../../../../components/CentralListOfCa
 import CentralCard01 from '../../../../../components/CentralCard01';
 import Microscope from '../../img/microscope.png';
 
-import CentralCard02 from '../../../../../components/CentralCard02';
+import CentralCard02 from '../../../../../components/CentralCard03';
 import Ensaio from '../../img/Ensaio.jpg';
 
 export default function ContentCenter() {
