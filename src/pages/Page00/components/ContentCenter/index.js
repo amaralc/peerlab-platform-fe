@@ -5,14 +5,15 @@ import CentralListOfCategories01 from '../../../../components/CentralListOfCateg
 import CentralListOfCategories02 from '../../../../components/CentralListOfCategories02';
 import CentralCard01 from '../../../../components/CentralCard01';
 import Microscope from '../../img/microscope.png';
+// import furadeira from '../../../../img/manufacturing-macrovector_oficial-01 1.png';
 
 export default function ContentCenter() {
   return (
     <Container>
       <Title>Todas as categorias</Title>
       <Body>
-        <CentralListOfCategories01 title="Grupo 01">
-          <CentralListOfCategories02 title="SubCategory 01">
+        <CentralListOfCategories01 title="Fabricação e prototipagem">
+          <CentralListOfCategories02 title="Mecânica">
             <CentralCard01
               title="Item"
               imgSrc={Microscope}
@@ -50,39 +51,7 @@ export default function ContentCenter() {
               route="/"
             />
           </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 03">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
+          <CentralListOfCategories02 title="Elétrica">
             <CentralCard01
               title="Item"
               imgSrc={Microscope}
@@ -103,8 +72,8 @@ export default function ContentCenter() {
             />
           </CentralListOfCategories02>
         </CentralListOfCategories01>
-        <CentralListOfCategories01 title="Grupo 02">
-          <CentralListOfCategories02 title="SubCategory 01">
+        <CentralListOfCategories01 title="Medição e análise">
+          <CentralListOfCategories02 title="Microscopia">
             <CentralCard01
               title="Item"
               imgSrc={Microscope}
@@ -136,317 +105,7 @@ export default function ContentCenter() {
               route="/"
             />
           </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 03">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-        </CentralListOfCategories01>
-        <CentralListOfCategories01 title="Grupo 03">
-          <CentralListOfCategories02 title="SubCategory 01">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 03">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 04">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-        </CentralListOfCategories01>
-        <CentralListOfCategories01 title="Grupo 04">
-          <CentralListOfCategories02 title="SubCategory 01">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 03">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 04">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/"
-            />
+          <CentralListOfCategories02 title="Análise">
             <CentralCard01
               title="Item"
               imgSrc={Microscope}
