@@ -5,7 +5,14 @@ import CentralListOfCategories01 from '../../../../components/CentralListOfCateg
 import CentralListOfCategories02 from '../../../../components/CentralListOfCategories02';
 import CentralCard01 from '../../../../components/CentralCard01';
 import Microscope from '../../img/microscope.png';
-// import furadeira from '../../../../img/manufacturing-macrovector_oficial-01 1.png';
+import Furadeira from '../../../../img/manufacturing-macrovector_oficial-01 1.png';
+import TornoVert from '../../../../img/manufacturing-macrovector_oficial-01 2.png';
+import TornoConv from '../../../../img/manufacturing-macrovector_oficial-01 3.png';
+import FresaConv from '../../../../img/manufacturing-macrovector_oficial-01 4.png';
+import RetifPLan from '../../../../img/manufacturing-macrovector_oficial-01 7.png';
+import TornoCNC from '../../../../img/manufacturing-macrovector-02-c 1.png';
+import CorteLaser from '../../../../img/manufacturing-macrovector-02-c 9.png';
+import FurBanc from '../../../../img/manufacturing-macrovector-02-c 5.png';
 
 export default function ContentCenter() {
   return (
@@ -16,37 +23,50 @@ export default function ContentCenter() {
           <CentralListOfCategories02 title="Mecânica">
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={Furadeira}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={TornoVert}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={TornoConv}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={FresaConv}
+              imgAlt="Microscope"
+              route="/"
+            />
+
+            <CentralCard01
+              title="Item"
+              imgSrc={RetifPLan}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={TornoCNC}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={CorteLaser}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Item"
+              imgSrc={FurBanc}
               imgAlt="Microscope"
               route="/"
             />
@@ -126,6 +146,7 @@ export default function ContentCenter() {
             />
           </CentralListOfCategories02>
         </CentralListOfCategories01>
+        <CentralListOfCategories01 title="Em desenvolvimento" />
       </Body>
     </Container>
   );
