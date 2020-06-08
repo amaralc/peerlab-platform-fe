@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Title, Body } from './styles';
 
 import CentralListOfCategories01 from '../../../../../components/CentralListOfCategories01';
-import CentralCard02 from '../../../../../components/CentralCard02';
+import CentralCard02 from '../../../../../components/CentralCard03';
 
 import Ensaio from '../../img/Ensaio.jpg';
 
