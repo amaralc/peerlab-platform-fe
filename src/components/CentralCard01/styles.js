@@ -20,7 +20,7 @@ export const Container = styled(Link)`
   }
 `;
 
-export const CardImg = styled.img`
+export const Img = styled.img`
   width: 62px;
   height: 62px;
   border-radius: calc(0.25rem - 1px);
@@ -33,7 +33,7 @@ export const CardImg = styled.img`
   }
 `;
 
-export const CardText = styled.p`
+export const Title = styled.p`
   font-size: 0.875rem;
   color: #aaa;
   line-height: 1.15;
@@ -43,7 +43,7 @@ export const CardText = styled.p`
   }
 `;
 
-export const CardBody = styled.div`
+export const Body = styled.div`
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   align-self: center;
