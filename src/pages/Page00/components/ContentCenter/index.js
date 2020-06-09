@@ -4,7 +4,7 @@ import { Container, Title, Body } from './styles';
 import CentralListOfCategories01 from '../../../../components/CentralListOfCategories01';
 import CentralListOfCategories02 from '../../../../components/CentralListOfCategories02';
 import CentralCard01 from '../../../../components/CentralCard01';
-import Microscope from '../../img/microscope.png';
+
 import Furadeira from '../../../../img/manufacturing-macrovector_oficial-01 1.png';
 import TornoVert from '../../../../img/manufacturing-macrovector_oficial-01 2.png';
 import TornoConv from '../../../../img/manufacturing-macrovector_oficial-01 3.png';
@@ -18,6 +18,9 @@ import RetifBanc from '../../../../img/manufacturing-microone-01 4.png';
 import Brac1 from '../../../../img/manufacturing-microone-01 2.png';
 import Brac2 from '../../../../img/manufacturing-microone-01 3.png';
 import Brac3 from '../../../../img/manufacturing-microone-01 8.png';
+import Reat1 from '../../../../img/analysis-macrovector-01 9.png';
+import Reat2 from '../../../../img/analysis-macrovector-01 11.png';
+import Reat3 from '../../../../img/analysis-macrovector-01 10.png';
 
 import MicOti1 from '../../../../img/microscopy-nsit0108-01 1.png';
 import MicOti2 from '../../../../img/microscopy-nsit0108-01 2.png';
@@ -26,7 +29,7 @@ import MicOti4 from '../../../../img/microscopy-nsit0108-01 5.png';
 import MicOti5 from '../../../../img/microscopy-nsit0108-01 8.png';
 import Vidraria from '../../../../img/analysis-macrovector-01 1.png';
 import Decant from '../../../../img/analysis-macrovector-01 2.png';
-import BalAnalit from '../../../../img/analysis-macrovector-01 3.png';
+import Balanca1 from '../../../../img/analysis-macrovector-01 3.png';
 import Espect1 from '../../../../img/analysis-macrovector-01 4.png';
 import CentrifTub from '../../../../img/analysis-macrovector-01 6.png';
 import Analis1 from '../../../../img/analysis-macrovector-01 7.png';
@@ -34,6 +37,11 @@ import Evap from '../../../../img/analysis-macrovector-01 8.png';
 import Analis2 from '../../../../img/analysis-macrovector-03 3.png';
 import BancEns from '../../../../img/analysis-macrovector-03 2.png';
 import Espect2 from '../../../../img/analysis-macrovector-02-b 7.png';
+import Proveta from '../../../../img/analysis-macrovector-02-b 5.png';
+import AquecMag from '../../../../img/analysis-macrovector-02-b 6.png';
+import TubEns from '../../../../img/analysis-macrovector-02-b 4.png';
+import CapsPor from '../../../../img/analysis-macrovector-02-b 1.png';
+import Balanca2 from '../../../../img/analysis-macrovector-02-b 16.png';
 import MicElet from '../../../../img/microscopy-nsit0108-01 9.png';
 
 export default function ContentCenter() {
@@ -125,20 +133,20 @@ export default function ContentCenter() {
           </CentralListOfCategories02>
           <CentralListOfCategories02 title="Elétrica">
             <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
+              title="Reator de Plasma"
+              imgSrc={Reat1}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
+              title="Reator de plasma"
+              imgSrc={Reat2}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
+              title="Microreator de plasma"
+              imgSrc={Reat3}
               imgAlt="Microscope"
               route="/"
             />
@@ -198,7 +206,13 @@ export default function ContentCenter() {
             />
             <CentralCard01
               title="Balança analítica"
-              imgSrc={BalAnalit}
+              imgSrc={Balanca1}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Balança de precisão"
+              imgSrc={Balanca2}
               imgAlt="Microscope"
               route="/"
             />
@@ -235,6 +249,36 @@ export default function ContentCenter() {
             <CentralCard01
               title="Bancada de ensaios"
               imgSrc={BancEns}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Especto-fotômetro"
+              imgSrc={Espect2}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Aquecedor magnético"
+              imgSrc={AquecMag}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Provetas"
+              imgSrc={Proveta}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Tubos de ensaio"
+              imgSrc={TubEns}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Cápsula de porcelana"
+              imgSrc={CapsPor}
               imgAlt="Microscope"
               route="/"
             />
