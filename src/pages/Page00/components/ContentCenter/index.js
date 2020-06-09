@@ -7,12 +7,12 @@ import CentralCard01 from '../../../../components/CentralCard01';
 
 import Furadeira from '../../../../img/manufacturing-macrovector_oficial-01 1.png';
 import TornoVert from '../../../../img/manufacturing-macrovector_oficial-01 2.png';
-import TornoConv from '../../../../img/manufacturing-macrovector_oficial-01 3.png';
-import FresaConv from '../../../../img/manufacturing-macrovector_oficial-01 4.png';
+import TornoConv1 from '../../../../img/manufacturing-macrovector_oficial-01 3.png';
+import FresaConv1 from '../../../../img/manufacturing-macrovector_oficial-01 4.png';
 import RetifPLan from '../../../../img/manufacturing-macrovector_oficial-01 7.png';
-import TornoCNC from '../../../../img/manufacturing-macrovector-02-c 1.png';
+import TornoCNC1 from '../../../../img/manufacturing-macrovector-02-c 1.png';
 import CorteLaser from '../../../../img/manufacturing-macrovector-02-c 9.png';
-import FurBanc from '../../../../img/manufacturing-macrovector-02-c 5.png';
+import FurBanc1 from '../../../../img/manufacturing-macrovector-02-c 5.png';
 import Esteira from '../../../../img/manufacturing-microone-01 1.png';
 import RetifBanc from '../../../../img/manufacturing-microone-01 4.png';
 import Brac1 from '../../../../img/manufacturing-microone-01 2.png';
@@ -21,6 +21,25 @@ import Brac3 from '../../../../img/manufacturing-microone-01 8.png';
 import Reat1 from '../../../../img/analysis-macrovector-01 9.png';
 import Reat2 from '../../../../img/analysis-macrovector-01 11.png';
 import Reat3 from '../../../../img/analysis-macrovector-01 10.png';
+import Extrus from '../../../../img/manufacturing-microone-01 5.png';
+import FresaConv2 from '../../../../img/manufacturing-macrovector-02-c 2.png';
+import TornoConv2 from '../../../../img/image 1.png';
+import TornoCNC2 from '../../../../img/manufacturing-macrovector_oficial-02 3.png';
+import FurBanc2 from '../../../../img/manufacturing-microone-01 7.png';
+/**
+import FurBanc2 from '../../../../img/image 3.png';
+import FurBanc2 from '../../../../img/manufacturing-macrovector_oficial-01 5.png';
+import FurBanc2 from '../../../../img/manufacturing-macrovector_oficial-01 6.png';
+import FurBanc2 from '../../../../img/manufacturing-macrovector_oficial-02 1.png';
+import FurBanc2 from '../../../../img/manufacturing-macrovector_oficial-02 2.png';
+import FurBanc2 from '../../../../img/manufacturing-macrovector_oficial-01 4.png';
+import FurBanc2 from '../../../../img/manufacturing-macrovector-02-c 3.png';
+import FurBanc2 from '../../../../img/manufacturing-macrovector-02-c 4.png';
+import FurBanc2 from '../../../../img/manufacturing-macrovector-02-c 6.png';
+import FurBanc2 from '../../../../img/manufacturing-macrovector-02-c 7.png';
+import FurBanc2 from '../../../../img/manufacturing-macrovector-02-c 8.png';
+import FurBanc2 from '../../../../img/manufacturing-microone-01 6.png';
+*/
 
 import MicOti1 from '../../../../img/microscopy-nsit0108-01 1.png';
 import MicOti2 from '../../../../img/microscopy-nsit0108-01 2.png';
@@ -42,7 +61,35 @@ import AquecMag from '../../../../img/analysis-macrovector-02-b 6.png';
 import TubEns from '../../../../img/analysis-macrovector-02-b 4.png';
 import CapsPor from '../../../../img/analysis-macrovector-02-b 1.png';
 import Balanca2 from '../../../../img/analysis-macrovector-02-b 16.png';
+import Centrif from '../../../../img/analysis-macrovector-02-b 14.png';
 import MicElet from '../../../../img/microscopy-nsit0108-01 9.png';
+/**
+import Centrif from '../../../../img/analysis-macrovector-01 5.png';
+import Centrif from '../../../../img/analysis-macrovector-01 12.png';
+import Centrif from '../../../../img/analysis-macrovector-02-b 2.png';
+import Centrif from '../../../../img/analysis-macrovector-02-b 3.png';
+import Centrif from '../../../../img/analysis-macrovector-02-b 8.png';
+import Centrif from '../../../../img/analysis-macrovector-02-b 9.png';
+import Centrif from '../../../../img/analysis-macrovector-02-b 10.png';
+import Centrif from '../../../../img/analysis-macrovector-02-b 11.png';
+import Centrif from '../../../../img/analysis-macrovector-02-b 12.png';
+import Centrif from '../../../../img/analysis-macrovector-02-b 13.png';
+import Centrif from '../../../../img/analysis-macrovector-02-b 15.png';
+import Centrif from '../../../../img/analysis-macrovector-03 1.png';
+import Centrif from '../../../../img/analysis-macrovector-03 4.png';
+import MicOti1 from '../../../../img/microscopy-nsit0108-01 4.png';
+import MicOti1 from '../../../../img/microscopy-nsit0108-01 6.png';
+import MicOti1 from '../../../../img/microscopy-nsit0108-01 7.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 1.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 2.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 3.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 4.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 5.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 6.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 7.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 8.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 9.png';
+*/
 
 export default function ContentCenter() {
   return (
@@ -65,13 +112,13 @@ export default function ContentCenter() {
             />
             <CentralCard01
               title="Torno convencional"
-              imgSrc={TornoConv}
+              imgSrc={TornoConv1}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
               title="Fresadora convencional"
-              imgSrc={FresaConv}
+              imgSrc={FresaConv1}
               imgAlt="Microscope"
               route="/"
             />
@@ -84,7 +131,7 @@ export default function ContentCenter() {
             />
             <CentralCard01
               title="Torno CNC"
-              imgSrc={TornoCNC}
+              imgSrc={TornoCNC1}
               imgAlt="Microscope"
               route="/"
             />
@@ -96,7 +143,7 @@ export default function ContentCenter() {
             />
             <CentralCard01
               title="Furadeira de bancada"
-              imgSrc={FurBanc}
+              imgSrc={FurBanc1}
               imgAlt="Microscope"
               route="/"
             />
@@ -127,6 +174,36 @@ export default function ContentCenter() {
             <CentralCard01
               title="Braço robótico industrial"
               imgSrc={Brac3}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Extrusora"
+              imgSrc={Extrus}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Fresadora convencional"
+              imgSrc={FresaConv2}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Torno Convencional"
+              imgSrc={TornoConv2}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Torno CNC"
+              imgSrc={TornoCNC2}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Furadeira de bancada"
+              imgSrc={FurBanc2}
               imgAlt="Microscope"
               route="/"
             />
@@ -285,6 +362,12 @@ export default function ContentCenter() {
             <CentralCard01
               title="Especto-fotômetro"
               imgSrc={Espect2}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Centrífuga"
+              imgSrc={Centrif}
               imgAlt="Microscope"
               route="/"
             />
