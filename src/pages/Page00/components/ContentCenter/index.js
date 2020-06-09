@@ -13,6 +13,11 @@ import RetifPLan from '../../../../img/manufacturing-macrovector_oficial-01 7.pn
 import TornoCNC from '../../../../img/manufacturing-macrovector-02-c 1.png';
 import CorteLaser from '../../../../img/manufacturing-macrovector-02-c 9.png';
 import FurBanc from '../../../../img/manufacturing-macrovector-02-c 5.png';
+import MicOti1 from '../../../../img/microscopy-nsit0108-01 1.png';
+import MicOti2 from '../../../../img/microscopy-nsit0108-01 2.png';
+import MicOti3 from '../../../../img/microscopy-nsit0108-01 3.png';
+import MicOti4 from '../../../../img/microscopy-nsit0108-01 5.png';
+import MicOti5 from '../../../../img/microscopy-nsit0108-01 8.png';
 
 export default function ContentCenter() {
   return (
@@ -96,36 +101,36 @@ export default function ContentCenter() {
           <CentralListOfCategories02 title="Microscopia">
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={MicOti1}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={MicOti2}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={MicOti3}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={MicOti4}
               imgAlt="Microscope"
               route="/"
             />
             <CentralCard01
               title="Item"
-              imgSrc={Microscope}
+              imgSrc={MicOti5}
               imgAlt="Microscope"
               route="/"
             />
           </CentralListOfCategories02>
-          <CentralListOfCategories02 title="Análise">
+          <CentralListOfCategories02 title="Química">
             <CentralCard01
               title="Item"
               imgSrc={Microscope}
