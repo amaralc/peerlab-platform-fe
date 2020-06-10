@@ -3,187 +3,85 @@ import { Container, Title, Body } from './styles';
 
 import CentralListOfCategories01 from '../../../../components/CentralListOfCategories01';
 import CentralListOfCategories02 from '../../../../components/CentralListOfCategories02';
-import CentralCard01 from '../../../../components/CentralCard01';
+
 import Microscope from '../../img/microscope.png';
+import CentralCard02 from '../../../../components/CentralCard02';
+
+import MicOti1 from '../../../../img/microscopy-nsit0108-01 1.png';
+import MicOti2 from '../../../../img/microscopy-nsit0108-01 2.png';
+import MicOti3 from '../../../../img/microscopy-nsit0108-01 3.png';
+import MicOti4 from '../../../../img/microscopy-nsit0108-01 5.png';
+import MicOti5 from '../../../../img/microscopy-nsit0108-01 8.png';
+import MicElet1 from '../../../../img/microscopy-nsit0108-01 9.png';
+import MicElet2 from '../../../../img/microscopy-yliv-01 8.png';
+import MicElet3 from '../../../../img/microscopy-yliv-01 9.png';
+/** import MicOti1 from '../../../../img/microscopy-yliv-01 8.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 1.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 2.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 3.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 4.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 5.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 6.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 7.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 8.png';
+import MicOti1 from '../../../../img/microscopy-yliv-01 9.png'; */
 
 export default function ContentCenter() {
   return (
     <Container>
       <Title>Todas as categorias</Title>
       <Body>
-        <CentralListOfCategories01 title="Grupo 01">
+        <CentralListOfCategories01 title="Microscópios óticos">
           <CentralListOfCategories02 title="SubCategory 01">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
+            <CentralCard02
+              title="Microscópio ótico"
+              imgSrc={MicOti1}
+              imgAlt="Microscópio ótico"
               route="/template-page-03"
             />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
+            <CentralCard02
+              title="Microscópio ótico"
+              imgSrc={MicOti2}
+              imgAlt="Microscópio ótico"
               route="/template-page-03"
             />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
+            <CentralCard02
+              title="Microscópio ótico"
+              imgSrc={MicOti3}
+              imgAlt="Microscópio ótico"
               route="/template-page-03"
             />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
+            <CentralCard02
+              title="Microscópio ótico"
+              imgSrc={MicOti4}
+              imgAlt="Microscópio ótico"
               route="/template-page-03"
             />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
+            <CentralCard02
+              title="Microscópio ótico"
+              imgSrc={MicOti5}
+              imgAlt="Microscópio ótico"
               route="/template-page-03"
             />
           </CentralListOfCategories02>
         </CentralListOfCategories01>
-        <CentralListOfCategories01 title="Grupo 02">
+        <CentralListOfCategories01 title="Microscópios eletrônicos">
           <CentralListOfCategories02 title="SubCategory 01">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
+            <CentralCard02
+              title="Microscópio eletrônico"
+              imgSrc={MicElet1}
               imgAlt="Microscope"
               route="/template-page-03"
             />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
+            <CentralCard02
+              title="Microscópio eletrônico"
+              imgSrc={MicElet2}
               imgAlt="Microscope"
               route="/template-page-03"
             />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="SubCategory 02">
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard01
-              title="Item"
-              imgSrc={Microscope}
+            <CentralCard02
+              title="Microscópio eletrônico"
+              imgSrc={MicElet3}
               imgAlt="Microscope"
               route="/template-page-03"
             />
