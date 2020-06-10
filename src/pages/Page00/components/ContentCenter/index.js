@@ -41,11 +41,13 @@ import FurBanc2 from '../../../../img/manufacturing-macrovector-02-c 8.png';
 import FurBanc2 from '../../../../img/manufacturing-microone-01 6.png';
 */
 
-import MicOti1 from '../../../../img/microscopy-nsit0108-01 1.png';
+/** import MicOti1 from '../../../../img/microscopy-nsit0108-01 1.png';
 import MicOti2 from '../../../../img/microscopy-nsit0108-01 2.png';
 import MicOti3 from '../../../../img/microscopy-nsit0108-01 3.png';
 import MicOti4 from '../../../../img/microscopy-nsit0108-01 5.png';
 import MicOti5 from '../../../../img/microscopy-nsit0108-01 8.png';
+import MicElet from '../../../../img/microscopy-nsit0108-01 9.png'; */
+import microscope from '../../img/microscope.png';
 import Vidraria from '../../../../img/analysis-macrovector-01 1.png';
 import Decant from '../../../../img/analysis-macrovector-01 2.png';
 import Balanca1 from '../../../../img/analysis-macrovector-01 3.png';
@@ -62,7 +64,7 @@ import TubEns from '../../../../img/analysis-macrovector-02-b 4.png';
 import CapsPor from '../../../../img/analysis-macrovector-02-b 1.png';
 import Balanca2 from '../../../../img/analysis-macrovector-02-b 16.png';
 import Centrif from '../../../../img/analysis-macrovector-02-b 14.png';
-import MicElet from '../../../../img/microscopy-nsit0108-01 9.png';
+
 /**
 import Centrif from '../../../../img/analysis-macrovector-01 5.png';
 import Centrif from '../../../../img/analysis-macrovector-01 12.png';
@@ -232,40 +234,10 @@ export default function ContentCenter() {
         <CentralListOfCategories01 title="Medição e análise">
           <CentralListOfCategories02 title="Microscopia">
             <CentralCard01
-              title="Microscópio ótico"
-              imgSrc={MicOti1}
+              title="Microscópios"
+              imgSrc={microscope}
               imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Microscópio ótico"
-              imgSrc={MicOti2}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Microscópio ótico"
-              imgSrc={MicOti3}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Microscópio ótico"
-              imgSrc={MicOti4}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Microscópio ótico"
-              imgSrc={MicOti5}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Microscópio eletrônico"
-              imgSrc={MicElet}
-              imgAlt="Microscope"
-              route="/"
+              route="/page01"
             />
           </CentralListOfCategories02>
           <CentralListOfCategories02 title="Química">
