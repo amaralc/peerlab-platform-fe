@@ -10,7 +10,7 @@ import Cermat from '../../img/Cermat.png';
 export default function ContentLeft() {
   return (
     <Container>
-      <SideBarList title="Template Title 01">
+      <SideBarList title="Laboratórios">
         <SideBarCard02
           title="CERMAT"
           subtitle="Núcleo de Pesquisas em Materiais Cerâmicos e Compósitos"

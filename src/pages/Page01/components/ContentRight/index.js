@@ -9,7 +9,7 @@ import MicFluor from '../../img/MicFluor.jpg';
 export default function ContentLeft() {
   return (
     <Container>
-      <SideBarList title="Template Title 01">
+      <SideBarList title="Notícias">
         <SideBarCard01
           title="Microscópio de Fluorescência operando novamente!"
           subtitle="Informamos que o microscópio de fluorescência está operando novamente."
