@@ -7,7 +7,7 @@ export const Container = styled(Link)`
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-
+  word-break: normal;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -16,7 +16,8 @@ export const Container = styled(Link)`
   margin: 0.325rem;
   margin-right: 25px !important;
   text-decoration: none;
-
+  width: 146px;
+  text-align: center;
   &:hover {
     text-decoration: none;
   }
@@ -26,6 +27,7 @@ export const Img = styled.div`
   padding: 5px 23px 5px 23px;
   border-radius: calc(0.25rem - 1px);
   border: 1px solid #ddd;
+
   img {
     width: 100px;
     height: 100px;
