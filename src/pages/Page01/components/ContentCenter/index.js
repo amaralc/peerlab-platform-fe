@@ -31,7 +31,7 @@ export default function ContentCenter() {
       <Title>Todas as categorias</Title>
       <Body>
         <CentralListOfCategories01 title="Microscópios óticos">
-          <CentralListOfCategories02 title="SubCategory 01">
+          <CentralListOfCategories02 title="">
             <CentralCard02
               title="Microscópio ótico trinocular"
               imgSrc={MicOti1}
@@ -125,7 +125,7 @@ export default function ContentCenter() {
           </CentralListOfCategories02>
         </CentralListOfCategories01>
         <CentralListOfCategories01 title="Microscópios eletrônicos">
-          <CentralListOfCategories02 title="SubCategory 01">
+          <CentralListOfCategories02 title="">
             <CentralCard02
               title="Microscópio eletrônico de transmissão"
               imgSrc={MicElet1}
