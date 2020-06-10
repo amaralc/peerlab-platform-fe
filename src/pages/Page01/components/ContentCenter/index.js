@@ -13,7 +13,7 @@ import MicOti5 from '../../../../img/microscopy-nsit0108-01 8.png';
 import MicElet1 from '../../../../img/microscopy-nsit0108-01 9.png';
 import MicElet2 from '../../../../img/microscopy-yliv-01 8.png';
 import MicElet3 from '../../../../img/microscopy-yliv-01 9.png';
-/**
+
 import MicOti6 from '../../../../img/microscopy-yliv-01 1.png';
 import MicOti7 from '../../../../img/microscopy-yliv-01 2.png';
 import MicOti8 from '../../../../img/microscopy-yliv-01 3.png';
@@ -23,7 +23,7 @@ import MicOti11 from '../../../../img/microscopy-yliv-01 6.png';
 import MicOti12 from '../../../../img/microscopy-yliv-01 7.png';
 import MicOti13 from '../../../../img/microscopy-nsit0108-01 4.png';
 import MicOti14 from '../../../../img/microscopy-nsit0108-01 6.png';
-import MicOti15 from '../../../../img/microscopy-nsit0108-01 7.png'; */
+import MicOti15 from '../../../../img/microscopy-nsit0108-01 7.png';
 
 export default function ContentCenter() {
   return (
@@ -33,32 +33,92 @@ export default function ContentCenter() {
         <CentralListOfCategories01 title="Microscópios óticos">
           <CentralListOfCategories02 title="SubCategory 01">
             <CentralCard02
-              title="Microscópio ótico"
+              title="Microscópio ótico trinocular"
               imgSrc={MicOti1}
               imgAlt="Microscópio ótico"
               route="/template-page-03"
             />
             <CentralCard02
-              title="Microscópio ótico"
+              title="Microscópio ótico monocular"
               imgSrc={MicOti2}
               imgAlt="Microscópio ótico"
               route="/template-page-03"
             />
             <CentralCard02
-              title="Microscópio ótico"
+              title="Microscópio estereoscópio"
               imgSrc={MicOti3}
               imgAlt="Microscópio ótico"
               route="/template-page-03"
             />
             <CentralCard02
-              title="Microscópio ótico"
+              title="Microscópio estereoscópio"
               imgSrc={MicOti4}
               imgAlt="Microscópio ótico"
               route="/template-page-03"
             />
             <CentralCard02
-              title="Microscópio ótico"
+              title="Microscópio ótico monocular"
               imgSrc={MicOti5}
+              imgAlt="Microscópio ótico"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio ótico monocular"
+              imgSrc={MicOti6}
+              imgAlt="Microscópio ótico"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio ótico"
+              imgSrc={MicOti7}
+              imgAlt="Microscópio ótico"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio ótico monocular"
+              imgSrc={MicOti8}
+              imgAlt="Microscópio ótico"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio biológico monocular"
+              imgSrc={MicOti9}
+              imgAlt="Microscópio ótico"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio ótico monocular"
+              imgSrc={MicOti10}
+              imgAlt="Microscópio ótico"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio ótico"
+              imgSrc={MicOti11}
+              imgAlt="Microscópio ótico"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio biológico monocular"
+              imgSrc={MicOti12}
+              imgAlt="Microscópio ótico"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio biológico monocular"
+              imgSrc={MicOti13}
+              imgAlt="Microscópio ótico"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio ótico trinocular"
+              imgSrc={MicOti14}
+              imgAlt="Microscópio ótico"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio biológico monocular"
+              imgSrc={MicOti15}
               imgAlt="Microscópio ótico"
               route="/template-page-03"
             />
