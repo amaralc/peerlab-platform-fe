@@ -41,12 +41,6 @@ import FurBanc2 from '../../../../img/manufacturing-macrovector-02-c 8.png';
 import FurBanc2 from '../../../../img/manufacturing-microone-01 6.png';
 */
 
-/** import MicOti1 from '../../../../img/microscopy-nsit0108-01 1.png';
-import MicOti2 from '../../../../img/microscopy-nsit0108-01 2.png';
-import MicOti3 from '../../../../img/microscopy-nsit0108-01 3.png';
-import MicOti4 from '../../../../img/microscopy-nsit0108-01 5.png';
-import MicOti5 from '../../../../img/microscopy-nsit0108-01 8.png';
-import MicElet from '../../../../img/microscopy-nsit0108-01 9.png'; */
 import microscope from '../../img/microscope.png';
 import Vidraria from '../../../../img/analysis-macrovector-01 1.png';
 import Decant from '../../../../img/analysis-macrovector-01 2.png';
@@ -79,18 +73,7 @@ import Centrif from '../../../../img/analysis-macrovector-02-b 13.png';
 import Centrif from '../../../../img/analysis-macrovector-02-b 15.png';
 import Centrif from '../../../../img/analysis-macrovector-03 1.png';
 import Centrif from '../../../../img/analysis-macrovector-03 4.png';
-import MicOti1 from '../../../../img/microscopy-nsit0108-01 4.png';
-import MicOti1 from '../../../../img/microscopy-nsit0108-01 6.png';
-import MicOti1 from '../../../../img/microscopy-nsit0108-01 7.png';
-import MicOti1 from '../../../../img/microscopy-yliv-01 1.png';
-import MicOti1 from '../../../../img/microscopy-yliv-01 2.png';
-import MicOti1 from '../../../../img/microscopy-yliv-01 3.png';
-import MicOti1 from '../../../../img/microscopy-yliv-01 4.png';
-import MicOti1 from '../../../../img/microscopy-yliv-01 5.png';
-import MicOti1 from '../../../../img/microscopy-yliv-01 6.png';
-import MicOti1 from '../../../../img/microscopy-yliv-01 7.png';
-import MicOti1 from '../../../../img/microscopy-yliv-01 8.png';
-import MicOti1 from '../../../../img/microscopy-yliv-01 9.png';
+
 */
 
 export default function ContentCenter() {
