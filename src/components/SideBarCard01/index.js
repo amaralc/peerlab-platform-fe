@@ -8,6 +8,7 @@ export default function SideBarCard01(props) {
       <Container href={props.url}>
         <Image src={props.imgPath} alt="" />
         <InfoContainer>
+          <InfoTitle>{props.date}</InfoTitle>
           <InfoTitle>{props.title}</InfoTitle>
           <InfoText>{props.subtitle}</InfoText>
         </InfoContainer>

@@ -11,6 +11,7 @@ export default function ContentLeft() {
     <Container>
       <SideBarList title="Notícias">
         <SideBarCard01
+          date="27/01/2020"
           title="Microscópio de Fluorescência operando novamente!"
           subtitle="Informamos que o microscópio de fluorescência está operando novamente."
           imgPath={MicFluor}
