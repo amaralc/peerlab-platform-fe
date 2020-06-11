@@ -220,7 +220,7 @@ export default function ContentCenter() {
               title="Microscópios"
               imgSrc={microscope}
               imgAlt="Microscope"
-              route="/page01"
+              route="/page-01"
             />
           </CentralListOfCategories02>
           <CentralListOfCategories02 title="Química">

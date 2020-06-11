@@ -26,6 +26,13 @@ export const Container = styled.div`
   img {
     border-radius: 0.5rem;
     height: 180px;
+    filter: opacity(60%) grayscale(1);
+  }
+
+  &:hover {
+    img {
+      filter: opacity(100%) grayscale(0);
+    }
   }
 `;
 

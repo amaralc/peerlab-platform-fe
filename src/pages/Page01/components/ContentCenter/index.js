@@ -30,6 +30,28 @@ export default function ContentCenter() {
     <Container>
       <Title>Todas as categorias</Title>
       <Body>
+        <CentralListOfCategories01 title="Microscópios eletrônicos">
+          <CentralListOfCategories02 title="">
+            <CentralCard02
+              title="Microscópio eletrônico de varredura"
+              imgSrc={MicElet1}
+              imgAlt="Microscope"
+              route="/page-02"
+            />
+            <CentralCard02
+              title="Microscópio eletrônico digital"
+              imgSrc={MicElet2}
+              imgAlt="Microscope"
+              route="/template-page-03"
+            />
+            <CentralCard02
+              title="Microscópio eletrônico digital"
+              imgSrc={MicElet3}
+              imgAlt="Microscope"
+              route="/template-page-03"
+            />
+          </CentralListOfCategories02>
+        </CentralListOfCategories01>
         <CentralListOfCategories01 title="Microscópios óticos">
           <CentralListOfCategories02 title="">
             <CentralCard02
@@ -120,28 +142,6 @@ export default function ContentCenter() {
               title="Microscópio biológico monocular"
               imgSrc={MicOti15}
               imgAlt="Microscópio ótico"
-              route="/template-page-03"
-            />
-          </CentralListOfCategories02>
-        </CentralListOfCategories01>
-        <CentralListOfCategories01 title="Microscópios eletrônicos">
-          <CentralListOfCategories02 title="">
-            <CentralCard02
-              title="Microscópio eletrônico de transmissão"
-              imgSrc={MicElet1}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard02
-              title="Microscópio eletrônico digital"
-              imgSrc={MicElet2}
-              imgAlt="Microscope"
-              route="/template-page-03"
-            />
-            <CentralCard02
-              title="Microscópio eletrônico digital"
-              imgSrc={MicElet3}
-              imgAlt="Microscope"
               route="/template-page-03"
             />
           </CentralListOfCategories02>
