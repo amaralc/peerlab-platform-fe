@@ -9,7 +9,7 @@ export const Container = styled.div`
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-
+  max-width: 499px;
   width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
