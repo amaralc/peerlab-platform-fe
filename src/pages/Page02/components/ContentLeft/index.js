@@ -4,7 +4,7 @@ import { Container } from './styles';
 import SideBarList from '../../../../components/SideBarList';
 import SideBarCard02 from '../../../../components/SideBarCard02';
 import LCME from '../../img/lcme.PNG';
-import Cermat from '../../img/cermat.png';
+import Cermat from '../../img/Cermat.png';
 
 export default function ContentLeft() {
   return (
