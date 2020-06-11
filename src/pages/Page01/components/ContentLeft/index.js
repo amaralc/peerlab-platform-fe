@@ -5,26 +5,24 @@ import SideBarList from '../../../../components/SideBarList';
 import SideBarCard02 from '../../../../components/SideBarCard02';
 
 import LCME from '../../img/lcme.jpg';
-import Cermat from '../../img/Cermat.png';
+import Cermat2 from '../../img/Cermat2.png';
 
 export default function ContentLeft() {
   return (
     <Container>
       <SideBarList title="Laboratórios">
         <SideBarCard02
+          imgPath={Cermat2}
           title="CERMAT"
           subtitle="Núcleo de Pesquisas em Materiais Cerâmicos e Compósitos"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
-          imgPath={Cermat}
+          text="Lorem ipsum massa curae quisque suspendisse mi ligula curae potenti. "
           route="/template-page-03"
         />
         <SideBarCard02
+          imgPath={LCME}
           title="LCME"
           subtitle="Laboratório Central de Microscopia Eletrônica"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          egestas mi commodo, hendrerit urna ut, feugiat purus. Nulla volutpat, erat."
-          imgPath={LCME}
+          text="Lorem ipsum massa curae quisque suspendisse mi ligula curae potenti. "
           route="/template-page-03"
         />
       </SideBarList>
