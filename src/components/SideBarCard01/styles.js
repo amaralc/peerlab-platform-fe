@@ -36,12 +36,18 @@ export const Container = styled.a`
 export const InfoContainer = styled.div`
   width: 100%;
   display: flex;
+  flex-direction: line;
+`;
+
+export const Body = styled.div`
+  width: 100%;
+  display: flex;
   flex-direction: column;
 `;
 
 export const Image = styled.img`
   margin-top: 1rem;
-  width: 100%;
+  width: 40%;
   text-align: center;
   border-radius: 6px;
   object-fit: cover;
@@ -55,11 +61,21 @@ export const InfoTitle = styled.div`
   height: 48;
   line-height: 16px;
   color: #333333;
-`;
+  padding-left: 0.5rem;
 
+  p:last-child {
+    padding-top: 3px;
+    font-size: 14px;
+    width: 100%;
+    word-break: normal;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+`;
 export const InfoText = styled.div`
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
   font-size: 14px;
   width: 100%;
   word-break: normal;
+  text-align: justify;
 `;

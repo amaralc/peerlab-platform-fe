@@ -1,17 +1,28 @@
 import React from 'react';
 
-import { Container, Image, InfoContainer, InfoTitle, InfoText } from './styles';
+import {
+  Container,
+  Image,
+  InfoContainer,
+  InfoTitle,
+  InfoText,
+  Body,
+} from './styles';
 
 export default function SideBarCard01(props) {
   return (
     <>
       <Container href={props.url}>
-        <Image src={props.imgPath} alt="" />
         <InfoContainer>
-          <InfoTitle>{props.date}</InfoTitle>
-          <InfoTitle>{props.title}</InfoTitle>
-          <InfoText>{props.subtitle}</InfoText>
+          <Image src={props.imgPath} alt="" />
+          <InfoTitle>
+            {props.date}
+            <p>{props.title}</p>
+          </InfoTitle>
         </InfoContainer>
+        <Body>
+          <InfoText>{props.subtitle}</InfoText>
+        </Body>
       </Container>
     </>
   );
