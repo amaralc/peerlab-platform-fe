@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
-export const Container = styled(Link)`
+export const Container = styled.a`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -12,6 +11,7 @@ export const Container = styled(Link)`
   width: 100%;
   color: #495057;
   text-align: inherit;
+  text-decoration: none;
 
   &:hover,
   &:focus {
@@ -39,9 +39,10 @@ export const SideBarItem = styled.div`
   flex-direction: line;
 
   img {
+    object-fit: cover;
     margin-top: 1rem;
-    width: 80px !important;
-    height: 80px !important;
+    width: 70px !important;
+    height: 70px !important;
     border-radius: 6px;
     object-fit: cover;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -56,16 +57,16 @@ export const InfoText = styled.div`
 `;
 
 export const InfoTitle = styled.div`
-  padding-top: 1.125rem;
+  padding-top: 1rem;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 0.875rem;
   height: 48;
   line-height: 16px;
   color: #333333;
   padding-left: 0.5rem;
 
   p:last-child {
-    padding-top: 3px;
+    padding-top: 0.375rem;
     font-size: 12px;
     width: 100%;
     word-break: normal;

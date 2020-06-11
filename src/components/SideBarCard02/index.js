@@ -5,7 +5,7 @@ import { Container, SideBarItem, InfoText, InfoTitle } from './styles';
 export default function SideBarCard02(props) {
   return (
     <>
-      <Container to={props.route}>
+      <Container target="_blank" rel="noopener noreferrer" href={props.route}>
         <SideBarItem>
           <img src={props.imgPath} alt="" />
           <InfoTitle>
