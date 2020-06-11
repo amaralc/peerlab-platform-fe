@@ -9,14 +9,17 @@ export const Container = styled.div`
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-
-  width: 100%;
+  width: 49%;
   padding: 1rem;
   margin-bottom: 1rem;
   margin-right: 0.5rem;
 
   border-radius: 0.25rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+  @media (max-width: 1535px) {
+    width: 100%;
+  }
 
   img {
     border-radius: 0.5rem;
