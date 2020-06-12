@@ -42,6 +42,9 @@ import FurBanc2 from '../../../../img/manufacturing-microone-01 6.png';
 */
 
 import microscope from '../../img/microscope.png';
+import CamTerm from '../../../../img/CamTerm3.png';
+import CamVelo from '../../../../img/CamVelo4.png';
+import CamDsrl from '../../../../img/CamDslr2.png';
 import Vidraria from '../../../../img/analysis-macrovector-01 1.png';
 import Decant from '../../../../img/analysis-macrovector-01 2.png';
 import Balanca1 from '../../../../img/analysis-macrovector-01 3.png';
@@ -73,7 +76,6 @@ import Centrif from '../../../../img/analysis-macrovector-02-b 13.png';
 import Centrif from '../../../../img/analysis-macrovector-02-b 15.png';
 import Centrif from '../../../../img/analysis-macrovector-03 1.png';
 import Centrif from '../../../../img/analysis-macrovector-03 4.png';
-
 */
 
 export default function ContentCenter() {
@@ -91,19 +93,19 @@ export default function ContentCenter() {
             />
             <CentralCard01
               title="Câmeras termográficas"
-              imgSrc={microscope}
+              imgSrc={CamTerm}
               imgAlt="Microscope"
               route="/page-01"
             />
             <CentralCard01
               title="Câmeras de alta velocidade"
-              imgSrc={microscope}
+              imgSrc={CamVelo}
               imgAlt="Microscope"
               route="/page-01"
             />
             <CentralCard01
               title="Câmeras DSLR"
-              imgSrc={microscope}
+              imgSrc={CamDsrl}
               imgAlt="Microscope"
               route="/page-01"
             />
