@@ -42,6 +42,9 @@ import FurBanc2 from '../../../../img/manufacturing-microone-01 6.png';
 */
 
 import microscope from '../../img/microscope.png';
+import CamTerm from '../../../../img/CamTerm3.png';
+import CamVelo from '../../../../img/CamVelo4.png';
+import CamDsrl from '../../../../img/CamDslr2.png';
 import Vidraria from '../../../../img/analysis-macrovector-01 1.png';
 import Decant from '../../../../img/analysis-macrovector-01 2.png';
 import Balanca1 from '../../../../img/analysis-macrovector-01 3.png';
@@ -73,7 +76,6 @@ import Centrif from '../../../../img/analysis-macrovector-02-b 13.png';
 import Centrif from '../../../../img/analysis-macrovector-02-b 15.png';
 import Centrif from '../../../../img/analysis-macrovector-03 1.png';
 import Centrif from '../../../../img/analysis-macrovector-03 4.png';
-
 */
 
 export default function ContentCenter() {
@@ -81,6 +83,138 @@ export default function ContentCenter() {
     <Container>
       <Title>Todas as categorias</Title>
       <Body>
+        <CentralListOfCategories01 title="Medição e análise">
+          <CentralListOfCategories02 title="Instrumentos óticos">
+            <CentralCard01
+              title="Microscópios"
+              imgSrc={microscope}
+              imgAlt="Microscope"
+              route="/page-01"
+            />
+            <CentralCard01
+              title="Câmeras termográficas"
+              imgSrc={CamTerm}
+              imgAlt="Microscope"
+              route="/page-01"
+            />
+            <CentralCard01
+              title="Câmeras de alta velocidade"
+              imgSrc={CamVelo}
+              imgAlt="Microscope"
+              route="/page-01"
+            />
+            <CentralCard01
+              title="Câmeras DSLR"
+              imgSrc={CamDsrl}
+              imgAlt="Microscope"
+              route="/page-01"
+            />
+          </CentralListOfCategories02>
+          <CentralListOfCategories02 title="Química">
+            <CentralCard01
+              title="Vidrarias"
+              imgSrc={Vidraria}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Decantadores"
+              imgSrc={Decant}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Balança analítica"
+              imgSrc={Balanca1}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Balança de precisão"
+              imgSrc={Balanca2}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Espectrômetro de massa"
+              imgSrc={Espect1}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Centrífuga para tubos"
+              imgSrc={CentrifTub}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Analisador FTIR e NDIR"
+              imgSrc={Analis1}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Evaporador"
+              imgSrc={Evap}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Análise de composição"
+              imgSrc={Analis2}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Bancada de ensaios"
+              imgSrc={BancEns}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Especto-fotômetro"
+              imgSrc={Espect2}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Aquecedor magnético"
+              imgSrc={AquecMag}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Provetas"
+              imgSrc={Proveta}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Tubos de ensaio"
+              imgSrc={TubEns}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Cápsula de porcelana"
+              imgSrc={CapsPor}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Especto-fotômetro"
+              imgSrc={Espect2}
+              imgAlt="Microscope"
+              route="/"
+            />
+            <CentralCard01
+              title="Centrífuga"
+              imgSrc={Centrif}
+              imgAlt="Microscope"
+              route="/"
+            />
+          </CentralListOfCategories02>
+        </CentralListOfCategories01>
         <CentralListOfCategories01 title="Fabricação e prototipagem">
           <CentralListOfCategories02 title="Mecânica">
             <CentralCard01
@@ -209,120 +343,6 @@ export default function ContentCenter() {
             <CentralCard01
               title="Microreator de plasma"
               imgSrc={Reat3}
-              imgAlt="Microscope"
-              route="/"
-            />
-          </CentralListOfCategories02>
-        </CentralListOfCategories01>
-        <CentralListOfCategories01 title="Medição e análise">
-          <CentralListOfCategories02 title="Microscopia">
-            <CentralCard01
-              title="Microscópios"
-              imgSrc={microscope}
-              imgAlt="Microscope"
-              route="/page-01"
-            />
-          </CentralListOfCategories02>
-          <CentralListOfCategories02 title="Química">
-            <CentralCard01
-              title="Vidrarias"
-              imgSrc={Vidraria}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Decantadores"
-              imgSrc={Decant}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Balança analítica"
-              imgSrc={Balanca1}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Balança de precisão"
-              imgSrc={Balanca2}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Espectrômetro de massa"
-              imgSrc={Espect1}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Centrífuga para tubos"
-              imgSrc={CentrifTub}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Analisador FTIR e NDIR"
-              imgSrc={Analis1}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Evaporador"
-              imgSrc={Evap}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Análise de composição"
-              imgSrc={Analis2}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Bancada de ensaios"
-              imgSrc={BancEns}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Especto-fotômetro"
-              imgSrc={Espect2}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Aquecedor magnético"
-              imgSrc={AquecMag}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Provetas"
-              imgSrc={Proveta}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Tubos de ensaio"
-              imgSrc={TubEns}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Cápsula de porcelana"
-              imgSrc={CapsPor}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Especto-fotômetro"
-              imgSrc={Espect2}
-              imgAlt="Microscope"
-              route="/"
-            />
-            <CentralCard01
-              title="Centrífuga"
-              imgSrc={Centrif}
               imgAlt="Microscope"
               route="/"
             />
