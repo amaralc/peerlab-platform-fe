@@ -14,6 +14,8 @@ export const Container = styled(Link)`
   border-radius: 0.25rem;
   margin: 0.325rem;
   text-decoration: none;
+  width: 62px;
+  word-break: normal;
 
   &:hover {
     text-decoration: none;
@@ -34,9 +36,10 @@ export const Img = styled.img`
 `;
 
 export const Title = styled.p`
-  font-size: 0.875rem;
+  font-size: 11px;
   color: #aaa;
   line-height: 1.15;
+  text-align: center;
 
   &:last-child {
     margin-bottom: 0;

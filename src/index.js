@@ -11,12 +11,16 @@ import TemplatePage01 from './pages/_templates/TemplatePage01';
 import TemplatePage02 from './pages/_templates/TemplatePage02';
 import TemplatePage03 from './pages/_templates/TemplatePage03';
 import Page00 from './pages/Page00';
+import Page01 from './pages/Page01';
+import Page02 from './pages/Page02';
 
 ReactDOM.render(
   <BrowserRouter>
     <App>
       <Switch>
         <Route exact path="/" component={Page00} />
+        <Route path="/page-01" component={Page01} />
+        <Route path="/page-02" component={Page02} />
         <Route path="/template-page-00" component={TemplatePage00} />
         <Route path="/template-page-01" component={TemplatePage01} />
         <Route path="/template-page-02" component={TemplatePage02} />

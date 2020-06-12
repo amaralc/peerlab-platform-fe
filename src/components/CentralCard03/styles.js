@@ -4,23 +4,35 @@ export const Container = styled.div`
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
-  flex-direction: line;
+  flex-direction: row;
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
+  width: 48%;
 
-  width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 
   border-radius: 0.25rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 
+  @media (max-width: 1320px) {
+    width: 100%;
+    max-width: 500px;
+  }
+
   img {
     border-radius: 0.5rem;
     height: 180px;
+    filter: opacity(60%) grayscale(1);
+  }
+
+  &:hover {
+    img {
+      filter: opacity(100%) grayscale(0);
+    }
   }
 `;
 
@@ -39,7 +51,7 @@ export const Body = styled.div`
   }
 
   h5 {
-    font-size: 16px;
+    font-size: 0.875rem;
     height: 48;
     color: #333333;
   }
@@ -49,15 +61,16 @@ export const Body = styled.div`
     width: 100%;
     word-break: normal;
     margin-top: 5px;
+
+    @media (max-width: 400px) {
+      display: none;
+    }
   }
 
   a {
     text-align: center;
     vertical-align: middle;
-    width: 30%;
-    min-width: 100px;
-
-    padding: 0.375rem 0.25rem;
+    padding: 0.375rem 0.375rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.125rem;

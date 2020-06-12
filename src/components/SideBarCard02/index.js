@@ -1,19 +1,19 @@
 import React from 'react';
 
-import { Container, SideBarItem } from './styles';
+import { Container, SideBarItem, InfoText, InfoTitle } from './styles';
 
 export default function SideBarCard02(props) {
   return (
     <>
-      <Container to={props.route}>
+      <Container target="_blank" rel="noopener noreferrer" href={props.route}>
         <SideBarItem>
           <img src={props.imgPath} alt="" />
-          <h5>
+          <InfoTitle>
             {props.title}
             <p>{props.subtitle}</p>
-          </h5>
-          <p>{props.text}</p>
+          </InfoTitle>
         </SideBarItem>
+        <InfoText>{props.text}</InfoText>
       </Container>
     </>
   );
