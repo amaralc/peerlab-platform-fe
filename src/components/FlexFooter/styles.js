@@ -1,11 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
+  flex-shrink: 0;
 
   height: 60px;
   width: 100%;

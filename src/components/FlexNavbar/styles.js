@@ -2,14 +2,8 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.nav`
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1;
-
+  flex-shrink: 0;
   display: flex;
-  flex: 0 0 auto;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
@@ -30,7 +24,6 @@ export const ActionContainer = styled.div`
   display: flex;
   justify-content: space-between;
   min-width: 15rem;
-
   align-items: center;
 
   @media (max-width: 992px) {
@@ -60,7 +53,6 @@ export const MenuToggleButton = styled.button`
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.125);
   border-radius: 0.25rem;
-
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   width: 1.5em;
   height: 1.5em;
@@ -84,7 +76,6 @@ export const MenuContainer = styled.div`
   justify-content: space-between;
   flex-grow: 1;
   width: 100%;
-
   background-color: transparent !important;
 
   @media (min-width: 992px) {
