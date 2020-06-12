@@ -114,6 +114,7 @@ export const MenuContainer = styled.div`
     margin-bottom: 0;
     list-style: none;
     justify-content: space-between;
+    border: solid blue;
 
     @media (min-width: 992px) {
       flex-direction: row;

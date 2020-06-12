@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: row;
-  flex: 1 1 auto;
+  flex-direction: column;
+  flex: 1 0 auto;
+  height: 100vh;
   overflow-x: hidden;
 `;
